@@ -189,7 +189,9 @@ Every radio has factory calibration data (power levels, frequency accuracy) stor
 ### 4.5 Flash the firmware
 
 1. **Turn the radio off.**
-2. **Hold PTT** and turn the radio on. Keep holding PTT until the **flashlight LED comes on**. The screen stays **blank and dark**. That's correct: this is bootloader ("flashing") mode.
+2. **Press and hold PTT first** (the big button at the top of the left side, *not* the two small buttons below it). *While still holding PTT*, turn the knob to switch the radio on. Keep holding for 2–3 seconds, then let go. The **flashlight LED comes on** and the screen stays **blank and dark**. That's correct: this is bootloader ("flashing") mode.
+   - **If the screen shows the normal display (frequency, battery, etc.), the radio started normally. Don't flash.** Turn it off, wait a few seconds, and try again, making sure PTT is fully pressed *before* the knob clicks on. The flashlight alone doesn't prove you're in flash mode; the **dark screen** does.
+   - **Don't hold Side 2.** PTT + Side 2 at power-on starts **AIR COPY (RDY)**, a wireless channel-cloning mode, not flash mode. If you see AIR COPY, **don't press any keys** (pressing MENU there transmits on 410 MHz, outside the ham bands). Just turn the radio off with no buttons held, and turn it back on.
 3. In UVTools2, under **Firmware File (.bin)**, choose the `.bin` you downloaded.
 4. Click **Flash firmware** and select the cable's serial port.
 5. The LED blinks while it writes ("flashing the firmware", get it?). Wait for 100%. **Don't unplug anything until it finishes.**
@@ -470,9 +472,10 @@ Yes, you can talk through a satellite with this radio. Several amateur satellite
 | Problem | Fix |
 |---|---|
 | Computer doesn't see the radio / no serial port | Push the K-plug in **harder**. Try another USB port. Install the CH340/FTDI driver. Use Chrome or Edge, not Safari. |
-| UVTools2 flashing fails | Make sure you're in bootloader mode (hold PTT at power-on; flashlight on, screen dark). Reseat the cable. Charge the battery. |
+| UVTools2 flashing fails | Make sure you're in bootloader mode: hold PTT *before* switching on; flashlight on **and screen dark**. A normal display means it didn't work, so try again. Have the cable connected and UVTools2 open first. Reseat the cable. Charge the battery. |
 | CHIRP can't connect | Take the radio out of CW/USB Port mode (switch to FM). Re-do **File → Load Module**. Turn the radio on normally (not bootloader mode). |
 | NR7Y model is missing in CHIRP | You forgot **File → Load Module** this session. Developer Mode must be on. |
+| Screen says **AIR COPY (RDY)** | You held PTT + Side 2 at power-on. Don't press MENU. Turn off, release all buttons, turn on. If it keeps coming back, make sure PTT and Side 2 aren't stuck pressed (the belt clip or a case can press them), or take the battery off for 10 seconds. |
 | "CW KEY STUCK" at power-on | Unplug the programming cable or paddle, turn the radio off, then back on. |
 | Radio won't stop transmitting in CW | **Hold EXIT.** Then: shorter key cable, lower power, move the antenna away from the radio. |
 | Can hear the repeater but it doesn't respond | Wrong tone or offset. Check the channel in CHIRP against [`frequencies.md`](frequencies.md) and RepeaterBook. |
