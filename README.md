@@ -232,10 +232,10 @@ We use **[CHIRP](https://chirpmyradio.com)**, the free, standard radio programmi
 
 ### 5.3 Load the W1YU channel list
 
-1. With the downloaded radio tab open, choose **File → Import** and select [`w1yu-chirp.csv`](w1yu-chirp.csv) from this repo.
-2. CHIRP shows the channels. Select all and confirm. They go into the memory slots listed in the file.
+1. With the **radio's** tab selected (the one from *Download from radio*), choose **File → Import** and select [`w1yu-chirp.csv`](w1yu-chirp.csv) from this repo. (If the CSV opens in its own tab, with no Settings sub-tab, it was opened rather than imported. Either redo this step from the radio's tab, or copy all its rows and paste them into the radio's tab at channel 1.)
+2. CHIRP shows the channels. Select all and confirm. They go into the memory slots listed in the file. **The empty rows between groups are on purpose:** each group (repeaters, CW, satellites…) starts at a round number, leaving room to add channels later.
 3. Look through the list. CHIRP marks any row it doesn't like. Edit or delete as needed.
-4. **⚠️ Lock transmit to the ham bands.** Open the **Settings** tab and find **TX Frequency Lock (F Lock)**. Set it to **`FCC HAM (144-148, 420-450)`**. The firmware default (`DEFAULT+ (137-174, 400-470)`) lets the radio transmit on non-ham frequencies, including the weather channels in our list. **Every club radio should have this set.**
+4. **⚠️ Lock transmit to the ham bands.** In the radio's tab, click the **Settings** sub-tab (next to **Memories**, just under the radio's name), open **Unlock Settings** in the list on the left, and find **TX Frequency Lock (F Lock)**. Set it to **`FCC HAM (144-148, 420-450)`**. The firmware default (`DEFAULT+ (137-174, 400-470)`) lets the radio transmit on non-ham frequencies, including the weather channels in our list. **Every club radio should have this set.**
 5. **Radio → Upload to radio.** Wait for it to finish, then power-cycle the radio.
 
 > The CSV was checked against the NR7Y v1.4a CHIRP module: all 40 channels import cleanly. Channel names are limited to 10 characters. CW channels import in **CW** mode, so the radio switches to CW automatically when you select them.
