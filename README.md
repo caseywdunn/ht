@@ -1,6 +1,6 @@
 # W1YU Handheld Radio (HT) Guide
 
-A guide from the **[Yale University Amateur Radio Club (W1YU)](https://w1yu.sites.yale.edu/)** for getting on the air with a handheld two-way radio (hams call it an "HT", for "handie-talkie"), starting from zero: no license, no radio, no experience.
+A guide from the **[Yale University Amateur Radio Club (W1YU)](https://w1yu.sites.yale.edu/)** for getting on the air with a handheld two-way radio (hams call it an "HT", for "handie-talkie"), starting from zero.
 
 ---
 
