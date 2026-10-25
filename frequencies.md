@@ -13,9 +13,9 @@ Frequencies for VHF/UHF handhelds in and around New Haven, CT. All of these are 
 
 ---
 
-## 1. W1YU club frequencies (suggested)
+## 1. W1YU club frequencies
 
-These are **proposals** for the club to adopt. They were picked to fit the [ARRL band plan](https://www.arrl.org/band-plan) and to stay clear of busy local frequencies (see "Why these" below). Before adopting them, listen for a couple of weeks, and if possible check with the [CT Spectrum Management Association](https://efile.ctspectrum.com/search.html) (the CT frequency coordinator).
+These are W1YU's club frequencies. They were picked to fit the [ARRL band plan](https://www.arrl.org/band-plan) and to stay clear of busy local frequencies (see "Why these" below). If one turns out to be busy, tell an officer so it can be changed.
 
 ### Voice (FM simplex)
 
