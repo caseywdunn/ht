@@ -48,15 +48,22 @@ Getting the channels in is two moves: **open the CSV in its own tab**, then **co
    - **The empty rows between groups are on purpose.** Each group starts at a round number (1 W1YU, 10 repeaters, 30 CW, 40 satellites, 60 weather, 70 aircraft, 80 marine, 90 trains), leaving room to add channels later.
    - Look through the list. CHIRP highlights any channel it doesn't like.
    - You can now close the CSV tab (don't save changes to it).
-5. **⚠️ Lock transmit to the ham bands.** Still in the radio tab:
+5. **Assign scan lists** so the radio's scan feature works ([how to scan](quick-reference.md#scanning)). The CSV can't carry this setting, so every pasted channel starts with its scan list **OFF**, and the radio skips OFF channels when scanning. In the radio tab's **Memories** sub-tab:
+   1. Select channels **1–3**, then hold **⌘** (Mac) or **Ctrl** (Windows) and also select **7–22**. These are the voice channels: W1YU, calling and repeaters.
+   2. **Right-click → Properties**, open the **Extra** tab, set **Scanlists (SList)** to **List [1]**, and click **OK**.
+   3. Select channels **70–96** (aircraft, marine, trains) and set them to **List [2]** the same way.
+   4. Leave the rest **OFF**. CW channels (4–6, 30) would stop the scan constantly, because the radio keeps the squelch open in Morse code mode. Weather (60–62) never goes quiet, and satellites are only overhead a few minutes at a time.
+
+   (**View → Show extra fields** shows the scan list as a column, so you can check your work.)
+6. **⚠️ Lock transmit to the ham bands.** Still in the radio tab:
    1. Click the **Settings** sub-tab.
    2. In the list on the left, click **Unlock Settings**.
    3. Set **TX Frequency Lock (F Lock)** to **`FCC HAM (144-148, 420-450)`**.
    4. Leave the checkbox below it, **Unlock 350-400 MHz RX (350 En)**, as it is. It only lets the radio *receive* 350–400 MHz and has no effect on transmitting. None of our channels use that range.
 
    The firmware default (`DEFAULT+ (137-174, 400-470)`) lets the radio transmit on non-ham frequencies, including the weather, marine and railroad channels in our list. **Every radio must have this set.**
-6. **Radio → Upload to radio**, with the **radio tab** selected. Wait for it to finish, then turn the radio off and on.
-7. **File → Save As** a new image (e.g. `my-radio-w1yu-2026-10-24.img`), so you have a copy of the finished setup.
+7. **Radio → Upload to radio**, with the **radio tab** selected. Wait for it to finish, then turn the radio off and on.
+8. **File → Save As** a new image (e.g. `my-radio-w1yu-2026-10-24.img`), so you have a copy of the finished setup.
 
 > The CSV was checked against the NR7Y v1.4a CHIRP module: all 57 channels import cleanly. Channel names are limited to 10 characters. CW channels import in **CW** mode and aircraft channels in **AM**, so the radio switches mode automatically when you select them.
 

@@ -58,6 +58,45 @@ Useful channels (full list in [`frequencies.md`](../frequencies.md)):
 | **Nudge the frequency up or down** | Press **▲** or **▼** |
 | **Switch between the top (A) and bottom (B) line** | **Long-press 2**. The radio talks on whichever line is selected. |
 
+## Squelch (muting the static)
+
+**Squelch** keeps the speaker silent when nobody is talking, so you don't hear constant static (a hissing noise). The level shows under each line on the screen as **SQL** plus a number from 0 to 9.
+
+| To… | Do this |
+|---|---|
+| **Make it quieter** (cut out more static) | Press **F**, then **▲** |
+| **Hear weaker stations** | Press **F**, then **▼** |
+| **Briefly hear everything**, static included | **Long-press M** (monitor). Long-press again to go back. |
+
+- **Too low** and you'll hear static all the time, and scanning will stop on noise.
+- **Too high** and you'll miss weak stations.
+- Around **2–4** usually works. Set it just high enough that the static goes away.
+
+In Morse code (CW) mode the radio holds the squelch open on purpose, so hearing static there is normal.
+
+## Scanning
+
+Scanning makes the radio step through channels or frequencies by itself and **stop when it hears someone**. It's a great way to find activity.
+
+| To… | Do this |
+|---|---|
+| **Start scanning** | **Long-press \*** (the key is labeled SCAN). A small **S** appears at the top of the screen. |
+| **Stop and stay on what it found** | Press **M** |
+| **Stop and go back to where you started** | Press **EXIT** |
+
+What it scans depends on the mode you're in:
+
+- **In memory mode** it steps through your **saved channels**. If you followed [the setup steps](05-programming.md#53-load-the-w1yu-channel-list), there are two scan lists:
+  - **List 1:** voice channels (W1YU, calling, repeaters)
+  - **List 2:** listen-only channels (aircraft, marine, trains)
+
+  The current list shows at the right side of the screen (**1**, **2**, or **1 2 3** for all lists). **Long-press \* while scanning** to switch lists.
+- **In frequency mode** it steps **up through frequencies** from where you are, a little at a time. This is good for exploring a band and finding activity that isn't in your channel list.
+
+When a transmission ends, the radio waits a few seconds, then keeps scanning.
+
+> **Scan finds nothing at all in memory mode?** The channels probably have no scan list assigned. Fix it in CHIRP ([step 5 here](05-programming.md#53-load-the-w1yu-channel-list)).
+
 ## If something seems wrong
 
 | Problem | Fix |
