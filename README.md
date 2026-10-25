@@ -68,7 +68,7 @@ The radio can also listen to lots of radio traffic outside ham radio. These are 
 
 A handheld radio is just the tip of the iceberg. With it you can talk to people within a few miles, or a few hundred miles through a satellite. Amateur radio goes much further. You can:
 
-- 🌕 **Bounce signals off the Moon** and hear your own echo come back about 2.5 seconds later (1.3 seconds each way). This is called "moonbounce" or EME.
+- 🌕 **Bounce signals off the Moon** and hear your own echo come back about 2.5 seconds later. This is called "moonbounce" or EME.
 - 🔧 **Build a radio from scratch** and use it to talk to people thousands of miles away.
 - 🌍 **Talk around the world** by bouncing signals off the ionosphere, the electrically charged layer of the upper atmosphere, often with nothing more than a wire antenna hung from a tree.
 - 💻 **Experiment with new communication technologies.** Digital modes like FT8 pull signals out from below the noise.
