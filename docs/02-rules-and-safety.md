@@ -1,6 +1,6 @@
 # 2. Before you transmit: licensing and rules
 
-**Listening is legal for everyone.** You can program the radio, listen to repeaters and satellites, and practice Morse with the radio's built-in practice mode ([section 4.5](04-cw.md#45-practice-without-transmitting)) with no license.
+**Listening is legal for everyone.** You can program the radio, listen to repeaters and satellites, and practice Morse with the radio's built-in practice mode ([section 4.3](04-cw.md#43-practice-with-the-radios-buttons)) with no license.
 
 **Transmitting requires an FCC amateur license.** The entry-level license is **Technician**: a 35-question multiple-choice exam with no Morse code requirement. It gives you every privilege this radio can use, CW on 2 m included.
 

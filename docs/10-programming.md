@@ -62,9 +62,10 @@ Getting the channels in is two moves: **open the CSV in its own tab**, then **co
    4. Leave the checkbox below it, **Unlock 350-400 MHz RX (350 En)**, as it is. It only lets the radio *receive* 350–400 MHz and has no effect on transmitting. None of our channels use that range.
 
    The firmware default (`DEFAULT+ (137-174, 400-470)`) lets the radio transmit on non-ham frequencies, including the weather, marine and railroad channels in our list. **Every radio must have this set.**
-7. **Show channel names on the screen.** Still in **Settings**, open **Basic Settings** and set **Channel Display Mode (ChDisp)** to **Name + Frequency (NAME + FREQ)**. Otherwise the radio may show only a frequency or channel number in memory mode. If you'd like the screen to show only one line instead of two (A and B), also set **RX Mode (RX MODE)** to **MAIN ONLY**. While you're there, set **Auto Lock Keypad After Delay (KeyLck)** to **OFF**, or to a longer delay like `02m:00s`, so the keys don't lock seconds after you stop pressing them.
-8. **Radio → Upload to radio**, with the **radio tab** selected. Wait for it to finish, then turn the radio off and on.
-9. **File → Save As** a new image (e.g. `my-radio-w1yu-2026-10-24.img`), so you have a copy of the finished setup.
+7. **Set the Morse code key input.** In **Settings → CW Settings**, set **Key Input Mode** to **Side Btn Iambic**, so Side 1 sends dits and PTT sends dahs ([why](04-cw.md#43-practice-with-the-radios-buttons)). The factory setting makes PTT a simple on/off key instead.
+8. **Show channel names on the screen.** Still in **Settings**, open **Basic Settings** and set **Channel Display Mode (ChDisp)** to **Name + Frequency (NAME + FREQ)**. Otherwise the radio may show only a frequency or channel number in memory mode. If you'd like the screen to show only one line instead of two (A and B), also set **RX Mode (RX MODE)** to **MAIN ONLY**. While you're there, set **Auto Lock Keypad After Delay (KeyLck)** to **OFF**, or to a longer delay like `02m:00s`, so the keys don't lock seconds after you stop pressing them.
+9. **Radio → Upload to radio**, with the **radio tab** selected. Wait for it to finish, then turn the radio off and on.
+10. **File → Save As** a new image (e.g. `my-radio-w1yu-2026-10-24.img`), so you have a copy of the finished setup.
 
 > The CSV was checked against the NR7Y v1.4a CHIRP module: all 57 channels import cleanly. Channel names are limited to 10 characters. CW channels import in **CW** mode and aircraft channels in **AM**, so the radio switches mode automatically when you select them.
 
@@ -124,7 +125,7 @@ Now your call sign shows every time the radio turns on, which also makes it easy
 | **CW Message 2** | `KC1ABC` | Your call sign, for identifying at the end of a contact |
 | **CW Message 3** | `QRL?` | Asking if the frequency is in use |
 
-Messages can be up to 46 characters. Prosigns can be typed as `<SK>`, `<BK>`, `<KA>`, `<SN>`, `<UR>` or `<SOS>`. The radio must be in CW mode with break-in on (**BKIN**) for a message to transmit; otherwise it only plays the sidetone. See [CW §4.4](04-cw.md#44-set-up-cw-mode).
+Messages can be up to 46 characters. Prosigns can be typed as `<SK>`, `<BK>`, `<KA>`, `<SN>`, `<UR>` or `<SOS>`. The radio must be in CW mode with break-in on (**BKIN**) for a message to transmit; otherwise it only plays the sidetone. See [CW §4.9](04-cw.md#49-settings-reference).
 
 ---
 

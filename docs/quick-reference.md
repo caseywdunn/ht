@@ -147,7 +147,7 @@ Settings are grouped into **categories**.
 | **RxMode** | Radio | One line (**MAIN ONLY**) or listen to both |
 | **Sql** | Radio | Squelch level |
 | **SList** | Scan | Which scan list to use |
-| **CWwpm**, **CWkin**, … | CW | Morse code settings ([details](04-cw.md#44-set-up-cw-mode)) |
+| **CWwpm**, **CWkin**, … | CW | Morse code settings ([details](04-cw.md#49-settings-reference)) |
 
 **Can't find something?** The **All** category, at the bottom of the category list, has every setting in one long list.
 
@@ -162,9 +162,9 @@ Settings are grouped into **categories**.
 
 ## Morse code in 30 seconds
 
-1. Select channel **4 (W1YU CW V1)**. The radio switches to CW automatically.
-2. **Long-press 7** until **BKIN** shows at the top. Keying will now transmit.
-3. Tap **PTT** as a Morse key. To practice without transmitting, use **F**, then **long-press 5** (practice mode, no license needed).
+1. **Practice first** (no license needed): press **F**, then **long-press 5**. **Side 1** sends dits and **PTT** sends dahs; hold one to repeat. **EXIT** leaves.
+2. **On the air:** select channel **4 (W1YU CW V1)**. The radio switches to CW automatically.
+3. **Long-press 7** until **BKIN** shows at the top. Now Side 1 and PTT transmit Morse code.
 
 More in [Morse code (CW)](04-cw.md).
 

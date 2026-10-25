@@ -34,7 +34,7 @@ These are W1YU's club frequencies. They were picked to fit the [ARRL band plan](
 
 ### Morse code (CW)
 
-> Remember: CW channels only work with **another CW/SSB-capable radio** ([CW §4.2](docs/04-cw.md#42-important-cw-is-not-fm)). Leave CW mode before using any FM frequency.
+> Remember: CW channels only work with **another CW/SSB-capable radio** ([CW §4.1](docs/04-cw.md#41-what-is-cw)). Leave CW mode before using any FM frequency.
 
 | Ch | Name | Frequency | Mode | Use |
 |---|---|---|---|---|
