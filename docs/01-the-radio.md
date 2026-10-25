@@ -7,7 +7,7 @@ We use the **Quansheng UV-K5 (Version 3)**, a cheap handheld radio that transmit
 | VHF | 144–148 MHz | "2 meters" | Most local activity: repeaters, simplex, CW, satellite uplinks |
 | UHF | 420–450 MHz | "70 centimeters" | Repeaters, simplex, satellite downlinks |
 
-It puts out about 5 watts, roughly 1,000× the power of a cell phone's Bluetooth. With the stock antenna that's enough to reach a hilltop repeater 20–30 miles away, or another handheld a few miles away directly ("simplex").
+It puts out about 5 watts, roughly 1,000× the power of a cell phone's Bluetooth. With the stock antenna you can talk **a few miles** directly to another radio ("simplex"), **tens of miles** through a repeater, and **hundreds of miles** through a satellite passing overhead.
 
 **Why this radio?** Its firmware is open source. Volunteers have written replacement firmware that adds features the factory never shipped. The one we use, **NR7Y CW firmware**, turns this $30 voice radio into a real Morse code transmitter. That's the point of the video this guide follows:
 

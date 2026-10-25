@@ -2,8 +2,8 @@
 
 ## 6.1 Simplex vs. repeaters
 
-- **Simplex:** radio to radio on one frequency. Range with handhelds is roughly 1–5 miles, more from a hilltop or high floor. Great for campus and events.
-- **Repeater:** a radio on a tall tower or hilltop that listens on one frequency and retransmits you on another, much more powerfully. Handhelds can talk across the region. Most repeaters need the right **offset** and **tone**. These are already set in the CHIRP file.
+- **Simplex:** radio to radio on one frequency. Range with handhelds is **a few miles**, more from a hilltop or high floor. Great for campus and events.
+- **Repeater:** a radio on a tall tower or hilltop that listens on one frequency and retransmits you on another, much more powerfully. Handhelds can talk **tens of miles**. Most repeaters need the right **offset** and **tone**. These are already set in the CHIRP file.
 
 See [`frequencies.md`](../frequencies.md) for local repeaters and the W1YU simplex channels.
 

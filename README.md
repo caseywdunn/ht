@@ -43,12 +43,15 @@ Part numbers and prices: [Shopping list](docs/03-shopping-list.md).
 ### 3. Get on the air!
 
 - **Load our channel list.** We've put together a [list of preprogrammed frequencies](frequencies.md) for the New Haven area, including W1YU's own club frequencies. Load them all at once from your computer ([how](docs/05-programming.md#53-load-the-w1yu-channel-list)), or type in a few by hand.
-- **Talk.** Voice works great:
-  - **Radio-to-radio** with other students across campus.
-  - **Across the region through repeaters.** These are powerful relay stations on hilltops and towers that rebroadcast your signal much farther than a handheld can reach on its own.
-  - **Join the W1YU net**, a weekly on-air meeting, on Tuesdays at 8 pm.
+- **Talk.** Voice works great. How far you can reach depends on how your signal travels:
 
-  See [Voice](docs/06-voice.md).
+  | How | How far |
+  |---|---|
+  | **Radio to radio**, directly | A few miles |
+  | **Through a repeater**, a powerful relay station on a hilltop or tower that rebroadcasts your signal | Tens of miles |
+  | **Through a satellite** as it passes overhead (needs a special antenna) | Hundreds of miles |
+
+  Join the **W1YU net**, a weekly on-air meeting, on Tuesdays at 8 pm through a local repeater. See [Voice](docs/06-voice.md) and [Satellites](docs/08-satellites.md).
 - **Try Morse code (CW).** With the new firmware the radio sends real Morse code. See [Morse code (CW)](docs/07-cw.md).
 - **Keep the [quick reference](docs/quick-reference.md) handy.** It's a one-page cheat sheet of the radio's buttons: changing channels, typing in a frequency, and fixing common problems.
 
@@ -66,7 +69,7 @@ The radio can also listen to lots of radio traffic outside ham radio. These are 
 
 ## What else can I do with other radios?
 
-A handheld radio is just the tip of the iceberg. With it you can talk to people within a few miles, or a few hundred miles through a satellite. Amateur radio goes much further. You can:
+A handheld radio is just the tip of the iceberg. With it you can talk a few miles radio to radio, tens of miles through a repeater, and hundreds of miles through a satellite. Amateur radio goes much further. You can:
 
 - 🌕 **Bounce signals off the Moon** and hear your own echo come back about 2.5 seconds later. This is called "moonbounce" or EME.
 - 🔧 **Build a radio from scratch** and use it to talk to people thousands of miles away.
