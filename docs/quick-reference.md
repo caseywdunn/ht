@@ -115,6 +115,16 @@ What it scans depends on the mode you're in:
 
 When a transmission ends, the radio waits a few seconds, then keeps scanning.
 
+### Skipping a channel
+
+| To… | Do this |
+|---|---|
+| **Skip a channel that keeps stopping the scan** | When the scan stops on it, **long-press M**. The radio marks the channel to skip and keeps scanning. It stays skipped, even after you turn the radio off. |
+| **Stop skipping it** | Go to that channel in memory mode and **long-press 5** once. |
+| **Take a channel out of scanning for good** | In CHIRP, set its scan list to **OFF** ([how](05-programming.md#53-load-the-w1yu-channel-list)) and upload. |
+
+Careful with **long-press 5** on a channel that *isn't* skipped: each long-press moves that channel to the next scan list (1 → 2 → 3 … → ALL → OFF). If you change one by accident, CHIRP is the easiest way to set it back.
+
 > **Scan finds nothing at all in memory mode?** The channels probably have no scan list assigned. Fix it in CHIRP ([step 5 here](05-programming.md#53-load-the-w1yu-channel-list)).
 
 ## Using the menu
