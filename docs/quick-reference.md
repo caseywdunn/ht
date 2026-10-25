@@ -20,6 +20,7 @@
 The radio works in one of two modes:
 
 - **Memory mode:** you pick from **saved channels**, like presets on a car radio. The screen shows a **channel name** like `W1YU V1`. Use this most of the time.
+  - **No name showing, just a frequency or a channel number?** Turn names on: press **M**, find **ChDisp**, choose **NAME+FREQ**, press **M** to save, then **EXIT**. (In CHIRP it's **Settings → Basic Settings → Channel Display Mode (ChDisp)**.)
 - **Frequency mode** (hams call it **"VFO" mode**): you **type in any frequency** you like. The screen shows just a **frequency** like `146.520`, with no channel name.
 
 **To switch between them, long-press the 3 key** (it's labeled **VFO MEM**). Each long-press flips to the other mode:
