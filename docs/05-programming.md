@@ -68,14 +68,31 @@ Getting the channels in is two moves: **open the CSV in its own tab**, then **co
 
 > The CSV was checked against the NR7Y v1.4a CHIRP module: all 57 channels import cleanly. Channel names are limited to 10 characters. CW channels import in **CW** mode and aircraft channels in **AM**, so the radio switches mode automatically when you select them.
 
-## 5.4 Switching between channels and typing frequencies
+## 5.4 Saving, and setting up more than one radio
+
+**Your edits aren't saved to your computer automatically.** Changes in CHIRP live only in the open tab until you choose **File → Save** (⌘S / Ctrl+S). Uploading to the radio does *not* save a copy on your computer, so save the image too.
+
+**Yes, you can use one image for several radios**, if they're all UV-K5 V3s (or K1s) on the **same firmware version**:
+
+1. Set up one radio completely (channels, scan lists, F Lock, ChDisp) and **File → Save As** e.g. `w1yu-setup.img`.
+2. For each other radio: connect it, first do **Radio → Download from radio** and save that as a backup (e.g. `backup-SN12345.img`).
+3. Open `w1yu-setup.img` (**File → Open**), select its tab, and **Radio → Upload to radio**.
+
+What gets copied and what doesn't:
+
+- **Copied:** channels, scan lists, and every setting, including F Lock and ChDisp.
+  - It also copies **personal settings**: the call sign on the start-up screen and the CW messages from [5.7](#57-put-your-call-sign-on-the-radio). Change those per person before uploading, or just leave them blank in the shared image.
+- **Not copied:** each radio's factory **calibration** (power and frequency accuracy). It's stored separately and is only uploaded if you tick **Settings → Calibration → upload calibration**. **Never tick that** when sharing an image between radios.
+- **Firmware version must match.** Every radio should run the same firmware release. The NR7Y CHIRP module refuses to upload to a radio running older firmware, so flash it first.
+
+## 5.5 Switching between channels and typing frequencies
 
 - **Memory (channel) mode** shows channel names like `W1YU V1`. **Frequency (VFO) mode** shows a frequency you can type in directly. Toggle between them with the **VFO/MR** key (long-press **3**).
 - In VFO mode, just type digits: `1 4 6 5 2 0` → 146.520 MHz.
 - **Up/Down arrows** step through channels or frequencies.
 - See the [Quick reference](quick-reference.md) for a one-page cheat sheet.
 
-## 5.5 What the channel settings mean
+## 5.6 What the channel settings mean
 
 | CHIRP column | Meaning |
 |---|---|
@@ -85,7 +102,7 @@ Getting the channels in is two moves: **open the CSV in its own tab**, then **co
 | **Mode** | `FM` for voice, `CW` for Morse |
 | **Power** | Use the **lowest power that works**. On simplex across campus, low power is plenty. |
 
-## 5.6 Put your call sign on the radio
+## 5.7 Put your call sign on the radio
 
 The radio doesn't need your call sign to work. On voice you identify yourself by saying it. But putting it in makes the radio easy to identify and saves a lot of keying on CW. All of this is in the radio tab's **Settings** sub-tab in CHIRP. Upload when done.
 
