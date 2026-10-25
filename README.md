@@ -1,6 +1,6 @@
 # W1YU Handheld Radio (HT) Guide
 
-A guide from the **Yale University Amateur Radio Club (W1YU)** for getting on the air with a handheld two-way radio (hams call it an "HT", for "handie-talkie"), starting from zero: no license, no radio, no experience.
+A guide from the **[Yale University Amateur Radio Club (W1YU)](https://w1yu.sites.yale.edu/)** for getting on the air with a handheld two-way radio (hams call it an "HT", for "handie-talkie"), starting from zero: no license, no radio, no experience.
 
 ---
 
@@ -89,6 +89,9 @@ The detailed pages. Work through them in order the first time you set up a radio
 ---
 
 ## Learning resources and links
+
+**W1YU**
+- 🏛️ [W1YU club website](https://w1yu.sites.yale.edu/): meetings, events, and the weekly net
 
 **This project's sources**
 - 📺 [NO MOD NEEDED! $30 Morse Code Radio](https://www.youtube.com/watch?v=qwPvv8Vp9-Q) (KI7QCF). The video's description has the creator's affiliate links for the radio and cable if you'd like to support them.
