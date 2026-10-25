@@ -249,7 +249,7 @@ We use **[CHIRP](https://chirpmyradio.com)**, the free, standard radio programmi
 
 **Steps**
 
-1. **Click the radio tab** to select it.
+1. **Click the radio tab** to select it. If you don't have one, go back and do **Radio → Download from radio** ([5.2](#52-every-time-you-program)) first. **Importing with no radio tab open just opens the CSV in its own tab**, which can't be uploaded.
 2. **File → Import**, and choose [`w1yu-chirp.csv`](w1yu-chirp.csv) from this repo.
 3. A dialog lists the channels. Leave them all checked and click **OK**. They appear in the radio tab's **Memories** sub-tab, in the channel numbers given in the file.
    - **The empty rows between groups are on purpose.** Each group starts at a round number (1 W1YU, 10 repeaters, 30 CW, 40 satellites, 60 weather, 70 aircraft, 80 marine, 90 trains), leaving room to add channels later.
@@ -500,6 +500,7 @@ Yes, you can talk through a satellite with this radio. Several amateur satellite
 | Computer doesn't see the radio / no serial port | Push the K-plug in **harder**. Try another USB port. Install the CH340/FTDI driver. Use Chrome or Edge, not Safari. |
 | UVTools2 flashing fails | Make sure you're in bootloader mode: hold PTT *before* switching on; flashlight on **and screen dark**. A normal display means it didn't work, so try again. Have the cable connected and UVTools2 open first. Reseat the cable. Charge the battery. |
 | CHIRP can't connect | Take the radio out of CW/USB Port mode (switch to FM). Re-do **File → Load Module**. Turn the radio on normally (not bootloader mode). |
+| CHIRP says *"This is a radio-independent file and cannot be uploaded directly to a radio"* | You're on the CSV tab, not the radio tab. Do **Radio → Download from radio** to get a radio tab, then copy all rows from the CSV tab and paste them into the radio tab's Memories at channel 1 ([5.3](#53-load-the-w1yu-channel-list)). Upload from the radio tab. |
 | NR7Y model is missing in CHIRP | You forgot **File → Load Module** this session. Developer Mode must be on. |
 | Screen says **AIR COPY (RDY)** | You held PTT + Side 2 at power-on. Don't press MENU. Turn off, release all buttons, turn on. If it keeps coming back, make sure PTT and Side 2 aren't stuck pressed (the belt clip or a case can press them), or take the battery off for 10 seconds. |
 | "CW KEY STUCK" at power-on | Unplug the programming cable or paddle, turn the radio off, then back on. |
