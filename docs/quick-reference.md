@@ -2,6 +2,8 @@
 
 *A one-page cheat sheet for a radio that's already flashed and has the W1YU channels loaded. If yours isn't set up yet, start with [Firmware](04-firmware.md) and [Programming](05-programming.md).*
 
+> 📘 **Manuals:** [Quansheng UV-K5 factory manual](https://en.qsfj.com/support/downloads/3268) (get the **V3 User Manual**; it describes the original software) · [NR7Y CW firmware docs](https://briand.github.io/cw-firmware-docs/) · [F4HWN Fusion firmware](https://github.com/armel/uv-k1-k5v3-firmware-custom#readme)
+
 > 🔑 **Not licensed yet?** Listening is fine. **Don't press PTT** unless a licensed operator is with you ([why](02-rules-and-safety.md)).
 
 ## The basics

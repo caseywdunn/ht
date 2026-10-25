@@ -38,7 +38,7 @@ If you'd like, you can also:
 - **Get a better antenna** for more range.
 - **Get a Morse code paddle**, a small two-lever key for sending Morse code. It's much easier to use than the radio's own buttons.
 
-Part numbers and prices: [Shopping list](docs/03-shopping-list.md).
+Part numbers and prices: [Shopping list](docs/03-shopping-list.md). Manuals for the radio are [linked below](#learning-resources-and-links).
 
 ### 3. Get on the air!
 
@@ -114,10 +114,14 @@ The detailed pages. Work through them in order the first time you set up a radio
 **W1YU**
 - 🏛️ [W1YU club website](https://w1yu.sites.yale.edu/): meetings, events, and the weekly net
 
+**Radio manuals**
+- 📘 [Quansheng UV-K5 factory manual](https://en.qsfj.com/support/downloads/3268): official downloads page; get the **UV-K5/UV-K5(8) V3 User Manual**. It describes the radio's *original* software. After you install the new firmware, some buttons and menus work differently, so use the next two as well.
+- 📖 [NR7Y CW Firmware Docs](https://briand.github.io/cw-firmware-docs/): the manual for the firmware this guide installs (Morse code features, menus, keys)
+- 📖 [F4HWN Fusion firmware](https://github.com/armel/uv-k1-k5v3-firmware-custom#readme): the firmware NR7Y is built on, covering the non-Morse features (scanning, display, settings)
+
 **This project's sources**
 - 📺 [NO MOD NEEDED! $30 Morse Code Radio](https://www.youtube.com/watch?v=qwPvv8Vp9-Q) (KI7QCF). The video's description has the creator's affiliate links for the radio and cable if you'd like to support them.
 - 📺 [How to do the internal paddle rework](https://youtu.be/hzdnNWqUeL0) (KI7QCF). An optional soldering mod for people who'd rather not use the USB-C adapter.
-- 📖 [NR7Y CW Firmware Docs](https://briand.github.io/cw-firmware-docs/)
 - 💾 [NR7Y firmware source and releases (UV-K5 V3 / UV-K1)](https://github.com/briand/uv-k1-k5v3-firmware-custom)
 - 🔧 [UVTools2 flasher](https://armel.github.io/uvtools2/) · [UV Studio](https://armel.github.io/uvstudio) · [BKG programmer](https://programmer.bkg.club)
 - 🤜 [Brass Knuckle Gang: 2 m CW club](https://bkg.club) (Discord linked from their site)
