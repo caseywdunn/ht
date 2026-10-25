@@ -1,6 +1,6 @@
 # Quick reference: using the radio
 
-*A one-page cheat sheet for a radio that's already flashed and has the W1YU channels loaded. If yours isn't set up yet, start with [Firmware](04-firmware.md) and [Programming](05-programming.md).*
+*A one-page cheat sheet for a radio that's already flashed and has the W1YU channels loaded. If yours isn't set up yet, start with [Firmware](09-firmware.md) and [Programming](10-programming.md).*
 
 > 📘 **Manuals:** [Quansheng UV-K5 factory manual](https://en.qsfj.com/support/downloads/3268) (get the **V3 User Manual**; it describes the original software) · [NR7Y CW firmware docs](https://briand.github.io/cw-firmware-docs/) · [F4HWN Fusion firmware](https://github.com/armel/uv-k1-k5v3-firmware-custom#readme)
 
@@ -59,7 +59,7 @@ Useful channels (full list in [`frequencies.md`](../frequencies.md)):
 | 1 | W1YU V1 | Club voice channel. Start here. |
 | 4 | W1YU CW V1 | Club Morse code channel |
 | 7 | CALL 2M | National calling frequency (146.520) |
-| 10 | W1SPC 147 | Repeater: W1YU net, Tuesdays 8 pm |
+| 10 | W1SPC 147 | Repeater in Woodbridge |
 | 60 | WX WXJ42 | NOAA weather (listen only) |
 | 70 | HVN TWR | Tweed airport tower (listen only) |
 
@@ -100,7 +100,7 @@ Scanning makes the radio step through channels or frequencies by itself and **st
 
 What it scans depends on the mode you're in:
 
-- **In memory mode** it steps through your **saved channels**. If you followed [the setup steps](05-programming.md#53-load-the-w1yu-channel-list), there are two scan lists:
+- **In memory mode** it steps through your **saved channels**. If you followed [the setup steps](10-programming.md#103-load-the-w1yu-channel-list), there are two scan lists:
   - **List 1:** voice channels (W1YU, calling, repeaters)
   - **List 2:** listen-only channels (aircraft, marine, trains)
 
@@ -123,11 +123,11 @@ When a transmission ends, the radio waits a few seconds, then keeps scanning.
 |---|---|
 | **Skip a channel that keeps stopping the scan** | When the scan stops on it, **long-press M**. The radio marks the channel to skip and keeps scanning. It stays skipped, even after you turn the radio off. |
 | **Stop skipping it** | Go to that channel in memory mode and **long-press 5** once. |
-| **Take a channel out of scanning for good** | In CHIRP, set its scan list to **OFF** ([how](05-programming.md#53-load-the-w1yu-channel-list)) and upload. |
+| **Take a channel out of scanning for good** | In CHIRP, set its scan list to **OFF** ([how](10-programming.md#103-load-the-w1yu-channel-list)) and upload. |
 
 Careful with **long-press 5** on a channel that *isn't* skipped: each long-press moves that channel to the next scan list (1 → 2 → 3 … → ALL → OFF). If you change one by accident, CHIRP is the easiest way to set it back.
 
-> **Scan finds nothing at all in memory mode?** The channels probably have no scan list assigned. Fix it in CHIRP ([step 5 here](05-programming.md#53-load-the-w1yu-channel-list)).
+> **Scan finds nothing at all in memory mode?** The channels probably have no scan list assigned. Fix it in CHIRP ([step 5 here](10-programming.md#103-load-the-w1yu-channel-list)).
 
 ## Using the menu
 
@@ -147,7 +147,7 @@ Settings are grouped into **categories**.
 | **RxMode** | Radio | One line (**MAIN ONLY**) or listen to both |
 | **Sql** | Radio | Squelch level |
 | **SList** | Scan | Which scan list to use |
-| **CWwpm**, **CWkin**, … | CW | Morse code settings ([details](07-cw.md#74-set-up-cw-mode)) |
+| **CWwpm**, **CWkin**, … | CW | Morse code settings ([details](04-cw.md#44-set-up-cw-mode)) |
 
 **Can't find something?** The **All** category, at the bottom of the category list, has every setting in one long list.
 
@@ -158,7 +158,7 @@ Settings are grouped into **categories**.
 | Voices sound garbled, or you hear hiss and tones | You're in the wrong mode. **Long-press 0** until the screen shows **FM**. |
 | Hear nothing at all | Turn up the volume. **Long-press M** (monitor) to open the squelch and check that the radio is receiving. |
 | Repeater doesn't answer | Use the channel from the list. It has the right tone and offset already set. |
-| Anything else | See [Troubleshooting](09-troubleshooting.md) |
+| Anything else | See [Troubleshooting](06-troubleshooting.md) |
 
 ## Morse code in 30 seconds
 
@@ -166,7 +166,7 @@ Settings are grouped into **categories**.
 2. **Long-press 7** until **BKIN** shows at the top. Keying will now transmit.
 3. Tap **PTT** as a Morse key. To practice without transmitting, use **F**, then **long-press 5** (practice mode, no license needed).
 
-More in [Morse code (CW)](07-cw.md).
+More in [Morse code (CW)](04-cw.md).
 
 ---
 

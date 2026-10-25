@@ -1,6 +1,6 @@
 # 2. Before you transmit: licensing and rules
 
-**Listening is legal for everyone.** You can program the radio, listen to repeaters and satellites, and practice Morse with the radio's built-in practice mode ([section 7.5](07-cw.md#75-practice-without-transmitting)) with no license.
+**Listening is legal for everyone.** You can program the radio, listen to repeaters and satellites, and practice Morse with the radio's built-in practice mode ([section 4.5](04-cw.md#45-practice-without-transmitting)) with no license.
 
 **Transmitting requires an FCC amateur license.** The entry-level license is **Technician**: a 35-question multiple-choice exam with no Morse code requirement. It gives you every privilege this radio can use, CW on 2 m included.
 
@@ -11,7 +11,7 @@
 ## The rules that matter day one
 
 1. **Identify.** Say (or send in Morse) your call sign at least every **10 minutes** and at the end of every contact.
-2. **Stay inside the ham bands.** This radio can be set up to transmit almost anywhere, including police, fire, aviation, marine, FRS/GMRS walkie-talkie, and business frequencies. **Never do this.** It's illegal, it can interfere with emergency services, and the FCC does fine people. After flashing, set **F Lock to FCC HAM** ([section 5.3](05-programming.md#53-load-the-w1yu-channel-list)) so the radio can only transmit on 144–148 and 420–450 MHz.
+2. **Stay inside the ham bands.** This radio can be set up to transmit almost anywhere, including police, fire, aviation, marine, FRS/GMRS walkie-talkie, and business frequencies. **Never do this.** It's illegal, it can interfere with emergency services, and the FCC does fine people. After flashing, set **F Lock to FCC HAM** ([section 10.3](10-programming.md#103-load-the-w1yu-channel-list)) so the radio can only transmit on 144–148 and 420–450 MHz.
 3. **No music, no profanity, no business, no encryption.**
 4. **Listen before you transmit.** Make sure the frequency isn't in use.
 5. **Emergency traffic always has priority.** If you hear someone say "break" or "emergency", stop and stand by.
@@ -24,4 +24,4 @@
 
 ---
 
-[← Guide home](../README.md) · [← 1. What is this radio?](01-the-radio.md) · [3. Shopping list →](03-shopping-list.md)
+[← Guide home](../README.md) · [← 1. What is this radio?](01-the-radio.md) · [3. Voice (FM) →](03-voice.md)

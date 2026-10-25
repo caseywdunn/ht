@@ -13,7 +13,7 @@ It puts out about 5 watts, roughly 1,000× the power of a cell phone's Bluetooth
 
 > 📺 **[NO MOD NEEDED! $30 Morse Code Radio](https://www.youtube.com/watch?v=qwPvv8Vp9-Q)**, by Forrest KI7QCF
 >
-> Watch it once all the way through before you start. The [Firmware](04-firmware.md), [Programming](05-programming.md) and [Morse code](07-cw.md) pages are the same steps, written out.
+> Watch it once all the way through before you start. The [Firmware](09-firmware.md), [Programming](10-programming.md) and [Morse code](04-cw.md) pages are the same steps, written out.
 
 ## Parts of the radio
 

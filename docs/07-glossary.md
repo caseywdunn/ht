@@ -1,4 +1,4 @@
-# 10. Glossary
+# 7. Glossary
 
 | Term | Meaning |
 |---|---|
@@ -27,4 +27,4 @@
 
 ---
 
-[← Guide home](../README.md) · [← 9. Troubleshooting](09-troubleshooting.md)
+[← Guide home](../README.md) · [← 6. Troubleshooting](06-troubleshooting.md) · [8. Shopping list →](08-shopping-list.md)

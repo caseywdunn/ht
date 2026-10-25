@@ -1,15 +1,15 @@
-# 5. Programming frequencies with a cable
+# 10. Programming frequencies with a cable
 
 You *can* type frequencies in on the keypad, but with a cable you can load all the New Haven channels in this repo at once.
 
 We use **[CHIRP](https://chirpmyradio.com)**, the free, standard radio programming app, with the **NR7Y module** you downloaded in step 4.2. (CHIRP's built-in Quansheng drivers don't know about the CW settings, so don't use them.)
 
-## 5.1 Install CHIRP (one time)
+## 10.1 Install CHIRP (one time)
 
 1. Download **CHIRP-next** from [chirpmyradio.com](https://chirpmyradio.com/projects/chirp/wiki/Download) (Mac, Windows, or Linux).
 2. Open CHIRP and turn on **Help → Developer Mode**. CHIRP restarts. You only do this once.
 
-## 5.2 Every time you program
+## 10.2 Every time you program
 
 1. Make sure the radio is **not in CW mode with a "USB Port" key input**. In that state the radio turns off its serial port and CHIRP can't connect. To be safe, put the radio in **FM** (long-press **0** until the screen shows FM).
 2. Connect the programming cable (K-plug) and turn the radio **on normally**.
@@ -20,7 +20,7 @@ We use **[CHIRP](https://chirpmyradio.com)**, the free, standard radio programmi
    - Port: your cable
 5. **File → Save As** and save the image, e.g. `my-radio-backup-2026-10-24.img`. This is your backup of everything on the radio.
 
-## 5.3 Load the W1YU channel list
+## 10.3 Load the W1YU channel list
 
 **First, understand CHIRP's tabs.** Every file or radio you open in CHIRP gets its own tab across the top of the window. Each tab has **sub-tabs** just underneath it:
 
@@ -41,7 +41,7 @@ We use **[CHIRP](https://chirpmyradio.com)**, the free, standard radio programmi
 
 Getting the channels in is two moves: **open the CSV in its own tab**, then **copy and paste** its rows into the radio tab. Importing the CSV alone does **not** put anything on the radio.
 
-1. **Make sure you have a radio tab.** If you don't, do **Radio → Download from radio** first ([5.2](#52-every-time-you-program)).
+1. **Make sure you have a radio tab.** If you don't, do **Radio → Download from radio** first ([10.2](#102-every-time-you-program)).
 2. **Open the CSV.** Use **File → Import** (or **File → Open**) and choose [`w1yu-chirp.csv`](../w1yu-chirp.csv) from this repo. It opens in a **new tab** of its own. That's expected.
 3. **Copy everything from the CSV tab.** Click any channel row in the CSV tab, press **⌘A** (Mac) or **Ctrl+A** (Windows) to select all, then **⌘C** / **Ctrl+C** to copy.
 4. **Paste into the radio tab's Memories.** Click the **radio tab**, then its **Memories** sub-tab. Click the row for **channel 1** and press **⌘V** / **Ctrl+V**. Each channel lands at its own number from the file.
@@ -68,7 +68,7 @@ Getting the channels in is two moves: **open the CSV in its own tab**, then **co
 
 > The CSV was checked against the NR7Y v1.4a CHIRP module: all 57 channels import cleanly. Channel names are limited to 10 characters. CW channels import in **CW** mode and aircraft channels in **AM**, so the radio switches mode automatically when you select them.
 
-## 5.4 Saving, and setting up more than one radio
+## 10.4 Saving, and setting up more than one radio
 
 **Your edits aren't saved to your computer automatically.** Changes in CHIRP live only in the open tab until you choose **File → Save** (⌘S / Ctrl+S). Uploading to the radio does *not* save a copy on your computer, so save the image too.
 
@@ -81,18 +81,18 @@ Getting the channels in is two moves: **open the CSV in its own tab**, then **co
 What gets copied and what doesn't:
 
 - **Copied:** channels, scan lists, and every setting, including F Lock and ChDisp.
-  - It also copies **personal settings**: the call sign on the start-up screen and the CW messages from [5.7](#57-put-your-call-sign-on-the-radio). Change those per person before uploading, or just leave them blank in the shared image.
+  - It also copies **personal settings**: the call sign on the start-up screen and the CW messages from [10.7](#107-put-your-call-sign-on-the-radio). Change those per person before uploading, or just leave them blank in the shared image.
 - **Not copied:** each radio's factory **calibration** (power and frequency accuracy). It's stored separately and is only uploaded if you tick **Settings → Calibration → upload calibration**. **Never tick that** when sharing an image between radios.
 - **Firmware version must match.** Every radio should run the same firmware release. The NR7Y CHIRP module refuses to upload to a radio running older firmware, so flash it first.
 
-## 5.5 Switching between channels and typing frequencies
+## 10.5 Switching between channels and typing frequencies
 
 - **Memory (channel) mode** shows channel names like `W1YU V1`. **Frequency (VFO) mode** shows a frequency you can type in directly. Toggle between them with the **VFO/MR** key (long-press **3**).
 - In VFO mode, just type digits: `1 4 6 5 2 0` → 146.520 MHz.
 - **Up/Down arrows** step through channels or frequencies.
 - See the [Quick reference](quick-reference.md) for a one-page cheat sheet.
 
-## 5.6 What the channel settings mean
+## 10.6 What the channel settings mean
 
 | CHIRP column | Meaning |
 |---|---|
@@ -102,7 +102,7 @@ What gets copied and what doesn't:
 | **Mode** | `FM` for voice, `CW` for Morse |
 | **Power** | Use the **lowest power that works**. On simplex across campus, low power is plenty. |
 
-## 5.7 Put your call sign on the radio
+## 10.7 Put your call sign on the radio
 
 The radio doesn't need your call sign to work. On voice you identify yourself by saying it. But putting it in makes the radio easy to identify and saves a lot of keying on CW. All of this is in the radio tab's **Settings** sub-tab in CHIRP. Upload when done.
 
@@ -124,8 +124,8 @@ Now your call sign shows every time the radio turns on, which also makes it easy
 | **CW Message 2** | `KC1ABC` | Your call sign, for identifying at the end of a contact |
 | **CW Message 3** | `QRL?` | Asking if the frequency is in use |
 
-Messages can be up to 46 characters. Prosigns can be typed as `<SK>`, `<BK>`, `<KA>`, `<SN>`, `<UR>` or `<SOS>`. The radio must be in CW mode with break-in on (**BKIN**) for a message to transmit; otherwise it only plays the sidetone. See [CW §7.4](07-cw.md#74-set-up-cw-mode).
+Messages can be up to 46 characters. Prosigns can be typed as `<SK>`, `<BK>`, `<KA>`, `<SN>`, `<UR>` or `<SOS>`. The radio must be in CW mode with break-in on (**BKIN**) for a message to transmit; otherwise it only plays the sidetone. See [CW §4.4](04-cw.md#44-set-up-cw-mode).
 
 ---
 
-[← Guide home](../README.md) · [← 4. Updating the firmware](04-firmware.md) · [6. Voice (FM) →](06-voice.md)
+[← Guide home](../README.md) · [← 9. Updating the firmware](09-firmware.md)

@@ -27,22 +27,15 @@ More about the rules: [Rules and safety](docs/02-rules-and-safety.md).
 
 ### 2. Get a radio
 
-We use the **Quansheng UV-K5 (V3)**, about **$30**: [Amazon ASIN B0D2QYWMNH](https://www.amazon.com/dp/B0D2QYWMNH). Make sure the listing says **V3**.
+**Borrow one from the club**, or if none is available or you'd like your own, **order one for about $30**: the **Quansheng UV-K5 (V3)**, [Amazon ASIN B0D2QYWMNH](https://www.amazon.com/dp/B0D2QYWMNH). Make sure the listing says **V3**.
 
-**That's all you need to get on the air.** Out of the box it works for voice on the two most popular local frequency ranges (hams call them the "2 meter" and "70 centimeter" bands).
+Either way, **Casey (AC1GQ)** can set it up for you with the W1YU club defaults: the new software ("firmware") that adds Morse code, the recommended settings, and our preprogrammed frequencies. Or you can do it yourself by following the [setup guides](#setting-up-a-radio).
 
-If you'd like, you can also:
-
-- **Install new software ("firmware") on the radio** that adds features, most importantly the ability to send Morse code (hams call it **CW**). It's free and takes about 15 minutes ([how](docs/04-firmware.md)).
-- **Get a USB programming cable** (about $12). It connects the radio to a computer, so you can install the new software and load our list of local frequencies all at once.
-- **Get a better antenna** for more range.
-- **Get a Morse code paddle**, a small two-lever key for sending Morse code. It's much easier to use than the radio's own buttons.
-
-Part numbers and prices: [Shopping list](docs/03-shopping-list.md). Manuals for the radio are [linked below](#learning-resources-and-links).
+Accessories like a better antenna, or a Morse code paddle (a small two-lever key for sending Morse code), are optional. See the [shopping list](docs/08-shopping-list.md).
 
 ### 3. Get on the air!
 
-- **Load our channel list.** We've put together a [list of preprogrammed frequencies](frequencies.md) for the New Haven area, including W1YU's own club frequencies. Load them all at once from your computer ([how](docs/05-programming.md#53-load-the-w1yu-channel-list)), or type in a few by hand.
+- **Use the preprogrammed frequencies.** Your radio comes loaded with a [list of frequencies](frequencies.md) for the New Haven area, including W1YU's own club channels.
 - **Talk.** Voice works great. How far you can reach depends on how your signal travels:
 
   | How | How far |
@@ -51,8 +44,8 @@ Part numbers and prices: [Shopping list](docs/03-shopping-list.md). Manuals for 
   | **Through a repeater**, a powerful relay station on a hilltop or tower that rebroadcasts your signal | Tens of miles |
   | **Through a satellite** as it passes overhead (needs a special antenna) | Hundreds of miles |
 
-  Join the **W1YU net**, a weekly on-air meeting, on Tuesdays at 8 pm through a local repeater. See [Voice](docs/06-voice.md) and [Satellites](docs/08-satellites.md).
-- **Try Morse code (CW).** With the new firmware the radio sends real Morse code. See [Morse code (CW)](docs/07-cw.md).
+  See [Voice](docs/03-voice.md) and [Satellites](docs/05-satellites.md).
+- **Try Morse code (hams call it CW).** The radio sends real Morse code. See [Morse code (CW)](docs/04-cw.md).
 - **Keep the [quick reference](docs/quick-reference.md) handy.** It's a one-page cheat sheet of the radio's buttons: changing channels, typing in a frequency, and fixing common problems.
 
 ---
@@ -65,7 +58,7 @@ The radio can also listen to lots of radio traffic outside ham radio. These are 
 - ✈️ **Listen to pilots talking to the control tower** at Tweed-New Haven Airport. ([channels](frequencies.md#aircraft-tweed-new-haven-airport-hvn))
 - 🚆 **Listen in on railroad communications:** Metro-North, Amtrak and freight trains around Union Station. ([channels](frequencies.md#trains-union-station-and-the-northeast-corridor))
 - ⚓ **Hear ships, tugboats and the Coast Guard** on Long Island Sound. ([channels](frequencies.md#marine-new-haven-harbor-and-long-island-sound))
-- 🛰️ **Talk through satellites as they fly overhead**, including a ham radio relay on the International Space Station. This needs a special handheld antenna. ([how](docs/08-satellites.md))
+- 🛰️ **Talk through satellites as they fly overhead**, including a ham radio relay on the International Space Station. This needs a special handheld antenna. ([how](docs/05-satellites.md))
 
 ## What else can I do with other radios?
 
@@ -89,30 +82,37 @@ Some of these use frequencies that need the next license level up, **General**, 
 
 ## The full guide
 
-The detailed pages. Work through them in order the first time you set up a radio.
+Start here once you have a radio in hand.
 
 | # | Page | What's in it |
 |---|---|---|
 | — | [Quick reference](docs/quick-reference.md) | One-page cheat sheet of the radio's buttons: changing channels, typing in frequencies, common fixes |
 | 1 | [The radio](docs/01-the-radio.md) | What the radio is, its buttons, and checking you have the right version (V3) |
 | 2 | [Rules and safety](docs/02-rules-and-safety.md) | Licensing, the rules that matter on day one, and safety |
-| 3 | [Shopping list](docs/03-shopping-list.md) | Parts with part numbers and prices |
-| 4 | [Firmware](docs/04-firmware.md) | Installing the new software (firmware) that adds Morse code |
-| 5 | [Programming](docs/05-programming.md) | Loading our channel list from a computer (with free software called CHIRP), and putting your call sign on the radio |
-| 6 | [Voice (FM)](docs/06-voice.md) | Talking radio-to-radio and through repeaters, what to say, joining a net, and the phonetic alphabet (Alpha, Bravo, Charlie…) |
-| 7 | [Morse code (CW)](docs/07-cw.md) | Ways to send Morse code, settings, a practice mode that doesn't transmit, using a paddle, and your first Morse code conversation |
-| 8 | [Satellites](docs/08-satellites.md) | Listening to and talking through the Space Station and other satellites |
-| 9 | [Troubleshooting](docs/09-troubleshooting.md) | Common problems and fixes |
-| 10 | [Glossary](docs/10-glossary.md) | Radio terms explained |
+| 3 | [Voice (FM)](docs/03-voice.md) | Talking radio-to-radio and through repeaters, what to say, joining a net, and the phonetic alphabet (Alpha, Bravo, Charlie…) |
+| 4 | [Morse code (CW)](docs/04-cw.md) | Ways to send Morse code, settings, a practice mode that doesn't transmit, using a paddle, and your first Morse code conversation |
+| 5 | [Satellites](docs/05-satellites.md) | Listening to and talking through the Space Station and other satellites |
+| 6 | [Troubleshooting](docs/06-troubleshooting.md) | Common problems and fixes |
+| 7 | [Glossary](docs/07-glossary.md) | Radio terms explained |
 
-**Frequencies:** [`frequencies.md`](frequencies.md) lists New Haven repeaters, W1YU simplex and CW channels, satellites, weather, and listen-only aircraft, marine and railroad channels. The same channels are in [`w1yu-chirp.csv`](w1yu-chirp.csv), ready to load ([how](docs/05-programming.md#53-load-the-w1yu-channel-list)).
+**Frequencies:** [`frequencies.md`](frequencies.md) lists New Haven repeaters, W1YU simplex and Morse code channels, satellites, weather, and listen-only aircraft, marine and railroad channels.
+
+### Setting up a radio
+
+*Only needed if you're setting up a radio yourself. A radio set up by Casey (AC1GQ) already has all of this done.*
+
+| # | Page | What's in it |
+|---|---|---|
+| 8 | [Shopping list](docs/08-shopping-list.md) | Radio, cables and accessories, with part numbers and prices |
+| 9 | [Firmware](docs/09-firmware.md) | Installing the new software (firmware) that adds Morse code |
+| 10 | [Programming](docs/10-programming.md) | Loading the W1YU channel list ([`w1yu-chirp.csv`](w1yu-chirp.csv)) and the club's default settings from a computer with free software called CHIRP, and putting your call sign on the radio |
 
 ---
 
 ## Learning resources and links
 
 **W1YU**
-- 🏛️ [W1YU club website](https://w1yu.sites.yale.edu/): meetings, events, and the weekly net
+- 🏛️ [W1YU club website](https://w1yu.sites.yale.edu/): meetings and events
 
 **Radio manuals**
 - 📘 [Quansheng UV-K5 factory manual](https://en.qsfj.com/support/downloads/3268): official downloads page; get the **UV-K5/UV-K5(8) V3 User Manual**. It describes the radio's *original* software. After you install the new firmware, some buttons and menus work differently, so use the next two as well.

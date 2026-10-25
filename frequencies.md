@@ -34,7 +34,7 @@ These are **proposals** for the club to adopt. They were picked to fit the [ARRL
 
 ### Morse code (CW)
 
-> Remember: CW channels only work with **another CW/SSB-capable radio** ([CW §7.2](docs/07-cw.md#72-important-cw-is-not-fm)). Leave CW mode before using any FM frequency.
+> Remember: CW channels only work with **another CW/SSB-capable radio** ([CW §4.2](docs/04-cw.md#42-important-cw-is-not-fm)). Leave CW mode before using any FM frequency.
 
 | Ch | Name | Frequency | Mode | Use |
 |---|---|---|---|---|
@@ -50,8 +50,7 @@ These are **proposals** for the club to adopt. They were picked to fit the [ARRL
 
 | What | When (suggested) | Where |
 |---|---|---|
-| **W1YU weekly net** (already exists) | **Tuesdays 8–9 pm** | W1SPC 147.505 repeater (PL 77, −1 MHz). This is from the [W1YU website](https://w1yu.sites.yale.edu/air), which was last updated around 2021, so **confirm it's still running**. |
-| **Student simplex check-in** | Right after the Tuesday net | W1YU V1 147.555, to see who can reach whom across campus |
+| **Student simplex check-in** | A regular evening, e.g. after a club meeting | W1YU V1 147.555, to see who can reach whom across campus |
 | **CW practice session**, slow (5–10 WPM) | A weekly evening, e.g. Thursday 9 pm | Start on 144.025 (BKG), move to W1YU CW V1 (144.070) |
 | **Satellite pass party** | Whenever a high ISS or SO-50 pass happens in the evening | Cross Campus or another open sky. See [§5](#5-satellites). |
 | **Fox hunt** (hidden-transmitter hunt) | Once a semester | 146.565 is the traditional fox-hunting frequency. Coordinate first. |
@@ -76,7 +75,7 @@ Use **Tone** mode (send the tone; don't require it on receive) so you hear every
 
 | Ch | Name | Output | Offset | Tone | Call / Club | Location | Nets | |
 |---|---|---|---|---|---|---|---|---|
-| 10 | W1SPC 147 | **147.505** | **−1.0 MHz** (TX 146.505) | 77.0 | W1SPC / [Shore Point ARC](https://sparc.us) | Woodbridge | **W1YU Tue 8 pm**; Region 2 ARES Mon 7:45 pm; SPARC Wed 8 pm; ARES sub-net Sun 8 pm | ✅ Non-standard split, already set in the CSV. EchoLink/IRLP connected. |
+| 10 | W1SPC 147 | **147.505** | **−1.0 MHz** (TX 146.505) | 77.0 | W1SPC / [Shore Point ARC](https://sparc.us) | Woodbridge | Region 2 ARES Mon 7:45 pm; SPARC Wed 8 pm; ARES sub-net Sun 8 pm | ✅ Non-standard split, already set in the CSV. EchoLink/IRLP connected. |
 | 11 | W1GB WH | **146.610** | −0.6 | 110.9 | W1GB / [SCARA](https://www.scara.us) | West Haven | — | ✅ Mixed FM/P25. Wide coverage. |
 | 12 | AA1VE EH | **147.255** | +0.6 | 110.9 | AA1VE / SCARA | East Haven | — | ✅ |
 | 13 | W1NRG WAL | **147.360** | +0.6 | 162.2 | W1NRG / [Meriden ARC](https://w1nrg.com) | Wallingford | Tue 7 pm; Wed 7 pm; Sat 9 am | ✅ Mixed FM/Fusion. Emergency power. |
@@ -109,7 +108,7 @@ Use **Tone** mode (send the tone; don't require it on receive) so you hear every
 
 ## 4. Weather
 
-**Receive only.** Make sure **F Lock** is set to **FCC HAM** ([Programming §5.3](docs/05-programming.md#53-load-the-w1yu-channel-list)) so the radio can't transmit on these.
+**Receive only.** Make sure **F Lock** is set to **FCC HAM** ([Programming §10.3](docs/10-programming.md#103-load-the-w1yu-channel-list)) so the radio can't transmit on these.
 
 | Ch | Name | Frequency | Station | Notes |
 |---|---|---|---|---|
@@ -172,7 +171,7 @@ Decode ISS SSTV pictures by holding a phone running **Robot36** (Android) or **S
 
 The radio receives far outside the ham bands, so it doubles as a scanner. These are channels 70–96 in the CSV.
 
-> ⚠️ **Receive only.** Never transmit on these. It's illegal and could interfere with real aircraft, ships and trains. With **F Lock set to FCC HAM** ([Programming §5.3](docs/05-programming.md#53-load-the-w1yu-channel-list)) the radio refuses to transmit here. **Listening is legal, but don't record, repost or share what you hear** from these services (federal law, 47 U.S.C. § 605).
+> ⚠️ **Receive only.** Never transmit on these. It's illegal and could interfere with real aircraft, ships and trains. With **F Lock set to FCC HAM** ([Programming §10.3](docs/10-programming.md#103-load-the-w1yu-channel-list)) the radio refuses to transmit here. **Listening is legal, but don't record, repost or share what you hear** from these services (federal law, 47 U.S.C. § 605).
 
 **Tip:** to scan a group, use the radio's scan list feature (see the F4HWN docs) or just step through with the arrows. Activity comes in bursts, so be patient.
 

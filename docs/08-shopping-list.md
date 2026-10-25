@@ -1,4 +1,4 @@
-# 3. Shopping list
+# 8. Shopping list
 
 Prices are approximate, as of fall 2026. Amazon ASINs are given so you can find the exact item.
 
@@ -15,7 +15,7 @@ Prices are approximate, as of fall 2026. Amazon ASINs are given so you can find 
 | Item | Part / where | ~Price | Notes |
 |---|---|---|---|
 | **KI6CR Labs "USB-C to 3.5mm – Quansheng CW Adapter (UV-K5 Ver 3)"** | [ki6cr-labs.com/shop/quansheng-usb-adapter](https://www.ki6cr-labs.com/shop/quansheng-usb-adapter/) | $10–12.50 | Plugs into the radio's USB-C port and gives you a 3.5 mm jack for a Morse key. **No soldering or opening the radio.** Comes as **3.5mm Female (5-pack)** or **3.5mm Male (single)**. Get the **female** version: any paddle with a normal 3.5 mm plug cable connects to it. The 5-pack is a good deal if a few friends order together. |
-| **Morse paddle or straight key** with a 3.5 mm stereo (TRS) plug | Any. Budget options: [KM4CFT paddles at HamGadgets](https://hamgadgets.com/); many $20–40 options on Amazon or eBay. Nicer: [CW Morse outdoor paddles](https://cwmorse.us/collections/outdoor-paddles), very nice portable paddles, but more expensive. | $20–60+ | Optional to start. **The radio's own PTT and side buttons can be used as a key** ([section 7.3](07-cw.md#73-three-ways-to-key-the-radio)), so you can begin with no extra hardware. Use a **short, shielded** cable. |
+| **Morse paddle or straight key** with a 3.5 mm stereo (TRS) plug | Any. Budget options: [KM4CFT paddles at HamGadgets](https://hamgadgets.com/); many $20–40 options on Amazon or eBay. Nicer: [CW Morse outdoor paddles](https://cwmorse.us/collections/outdoor-paddles), very nice portable paddles, but more expensive. | $20–60+ | Optional to start. **The radio's own PTT and side buttons can be used as a key** ([section 4.3](04-cw.md#43-three-ways-to-key-the-radio)), so you can begin with no extra hardware. Use a **short, shielded** cable. |
 
 > ⚠️ The KI6CR adapter is **not** the same as a "USB-C to 3.5 mm headphone adapter". Those contain audio electronics and **will not work**. You need the passive adapter made for this firmware. ([Why](https://briand.github.io/cw-firmware-docs/hardware/usb-trs-cable/): the firmware reads the key directly off the USB-C data pins: Tip = dit on D+, Ring = dah on D−, Sleeve = ground.)
 
@@ -37,4 +37,4 @@ Prices are approximate, as of fall 2026. Amazon ASINs are given so you can find 
 
 ---
 
-[← Guide home](../README.md) · [← 2. Before you transmit: licensing and rules](02-rules-and-safety.md) · [4. Updating the firmware →](04-firmware.md)
+[← Guide home](../README.md) · [← 7. Glossary](07-glossary.md) · [9. Updating the firmware →](09-firmware.md)

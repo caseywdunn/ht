@@ -1,13 +1,13 @@
-# 6. Voice (FM)
+# 3. Voice (FM)
 
-## 6.1 Simplex vs. repeaters
+## 3.1 Simplex vs. repeaters
 
 - **Simplex:** radio to radio on one frequency. Range with handhelds is **a few miles**, more from a hilltop or high floor. Great for campus and events.
 - **Repeater:** a radio on a tall tower or hilltop that listens on one frequency and retransmits you on another, much more powerfully. Handhelds can talk **tens of miles**. Most repeaters need the right **offset** and **tone**. These are already set in the CHIRP file.
 
 See [`frequencies.md`](../frequencies.md) for local repeaters and the W1YU simplex channels.
 
-## 6.2 How to talk on the radio
+## 3.2 How to talk on the radio
 
 1. **Listen first.** Wait a few seconds to make sure nobody is mid-conversation.
 2. **Press and hold PTT, wait half a second, *then* speak.** People often clip their first word.
@@ -15,7 +15,7 @@ See [`frequencies.md`](../frequencies.md) for local repeaters and the W1YU simpl
 4. **Release PTT** when you're done. Repeaters have a timeout (often 3 minutes), so keep transmissions short.
 5. **Pause 1–2 seconds** between transmissions on a repeater so others (especially emergencies) can break in.
 
-## 6.3 Example contacts
+## 3.3 Example contacts
 
 **Announcing yourself on a repeater or simplex:**
 > "KC1ABC listening."   *(or "KC1ABC monitoring")*
@@ -34,7 +34,7 @@ Plain "CQ" calls are rare on FM. Just say your call sign.
 
 ("73" means "best regards". Say your call sign at the end.)
 
-## 6.4 Checking into a net
+## 3.4 Checking into a net
 
 A **net** is a scheduled on-air meeting run by a **net control** station. They're friendly and a great first contact. When net control asks for check-ins, say your call sign **phonetically**, and only your call sign:
 
@@ -42,7 +42,7 @@ A **net** is a scheduled on-air meeting run by a **net control** station. They'r
 
 Then wait to be acknowledged. Local nets are listed in [`frequencies.md`](../frequencies.md).
 
-## 6.5 Phonetic alphabet
+## 3.5 Phonetic alphabet
 
 | | | | | | |
 |---|---|---|---|---|---|
@@ -52,7 +52,7 @@ Then wait to be acknowledged. Local nets are listed in [`frequencies.md`](../fre
 | S Sierra | T Tango | U Uniform | V Victor | W Whiskey | X X-ray |
 | Y Yankee | Z Zulu | | | | |
 
-## 6.6 Voice tips
+## 3.6 Voice tips
 
 - If you hear nothing, or voices sound garbled, check that the radio is in **FM** mode (long-press **0** cycles FM → AM → USB → CW).
 - If a repeater "kerchunks" (a short burst of noise or a beep) when you un-key, you're getting in. If nothing happens, check the tone and offset.
@@ -61,4 +61,4 @@ Then wait to be acknowledged. Local nets are listed in [`frequencies.md`](../fre
 
 ---
 
-[← Guide home](../README.md) · [← 5. Programming frequencies with a cable](05-programming.md) · [7. Morse code (CW) →](07-cw.md)
+[← Guide home](../README.md) · [← 2. Before you transmit: licensing and rules](02-rules-and-safety.md) · [4. Morse code (CW) →](04-cw.md)

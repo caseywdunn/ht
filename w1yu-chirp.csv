@@ -8,7 +8,7 @@ Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPola
 7,CALL 2M,146.520000,,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,,1.0W,National 2m FM simplex calling frequency,,,,
 8,CALL 70CM,446.000000,,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,,1.0W,National 70cm FM simplex calling frequency,,,,
 9,CT ARES,146.535000,,0.000000,,88.5,88.5,023,NN,023,Tone->Tone,FM,5.00,,1.0W,CT ARES statewide simplex - listen; use for ARES/emergencies,,,,
-10,W1SPC 147,147.505000,-,1.000000,Tone,77.0,88.5,023,NN,023,Tone->Tone,FM,5.00,,5.0W,Woodbridge SPARC. -1 MHz split! W1YU net Tue 8pm. ARES Mon 7:45pm,,,,
+10,W1SPC 147,147.505000,-,1.000000,Tone,77.0,88.5,023,NN,023,Tone->Tone,FM,5.00,,5.0W,Woodbridge SPARC. -1 MHz split! ARES net Mon 7:45pm,,,,
 11,W1GB WH,146.610000,-,0.600000,Tone,110.9,88.5,023,NN,023,Tone->Tone,FM,5.00,,5.0W,West Haven SCARA. Mixed FM/P25,,,,
 12,AA1VE EH,147.255000,+,0.600000,Tone,110.9,88.5,023,NN,023,Tone->Tone,FM,5.00,,5.0W,East Haven SCARA,,,,
 13,W1NRG WAL,147.360000,+,0.600000,Tone,162.2,88.5,023,NN,023,Tone->Tone,FM,5.00,,5.0W,Wallingford/Meriden ARC. Nets Tue 7pm Wed 7pm Sat 9am,,,,
