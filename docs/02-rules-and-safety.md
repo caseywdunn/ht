@@ -6,7 +6,7 @@
 
 - Study free at **[HamStudy.org](https://hamstudy.org)** (flashcards and practice exams). Most people pass after 1–3 weeks of casual study.
 - Find an exam session: **[ARRL exam search](https://www.arrl.org/find-an-amateur-radio-license-exam-session)**. Many are free or cost about $15; there are online sessions too. The FCC also charges a $35 application fee.
-- **Not licensed yet?** You can still talk on the air if a licensed **control operator** is standing next to you and the club station call sign (or theirs) is used. Ask an officer.
+- **Not licensed yet?** You can still talk on the air if a licensed **control operator** is standing next to you and you use their call sign.
 
 ## The rules that matter day one
 

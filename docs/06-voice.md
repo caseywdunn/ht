@@ -40,7 +40,7 @@ A **net** is a scheduled on-air meeting run by a **net control** station. They'r
 
 > "Kilo Charlie One Alpha Bravo Charlie."
 
-Then wait to be acknowledged. Local nets are listed in [`frequencies.md`](../frequencies.md). **Suggestion:** W1YU should run its own weekly student net (see the suggestions there).
+Then wait to be acknowledged. Local nets are listed in [`frequencies.md`](../frequencies.md).
 
 ## 6.5 Phonetic alphabet
 

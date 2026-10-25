@@ -46,7 +46,7 @@ It puts out about 5 watts, roughly 1,000× the power of a cell phone's Bluetooth
 
 1. Take the battery off (slide the latch on the back).
 2. Read the label inside. **If it says "V3", you're good.**
-3. If it says nothing about a version, you probably have a V1. Stop and ask an officer.
+3. If it says nothing about a version, you probably have a V1. Stop: the firmware in this guide is for the V3 only.
 
 Brightly colored or clear cases are all V1. The V3 is black with a grey frame around the display. (The **Quansheng UV-K1** uses the same firmware as the V3 and works too.)
 
