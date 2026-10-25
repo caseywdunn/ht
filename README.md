@@ -77,7 +77,6 @@ A handheld radio is just the tip of the iceberg. With it you can talk to people 
 - 🎈 **Launch a high-altitude balloon** carrying a tiny transmitter, and track it as it drifts around the world.
 - 🛰️ **Download pictures directly from weather satellites** as they pass overhead.
 - 🏞️ **Get on the air from parks and mountaintops** in programs like Parks on the Air and Summits on the Air, and contact others doing the same.
-- 🏆 **Compete in contests** to contact as many stations, states or countries as you can in a weekend.
 - 📬 **Collect postcards that confirm contacts from around the world.**
 - 🧭 **Go "fox hunting":** use a direction-finding antenna to track down a hidden transmitter.
 
