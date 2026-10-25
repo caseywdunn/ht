@@ -54,7 +54,7 @@ Part numbers and prices: [Shopping list](docs/03-shopping-list.md).
 
 ---
 
-## What else can I do?
+## What else can I do with this radio?
 
 The radio can also listen to lots of radio traffic outside ham radio. These are all in the channel list:
 
@@ -63,6 +63,26 @@ The radio can also listen to lots of radio traffic outside ham radio. These are 
 - 🚆 **Listen in on railroad communications:** Metro-North, Amtrak and freight trains around Union Station. ([channels](frequencies.md#trains-union-station-and-the-northeast-corridor))
 - ⚓ **Hear ships, tugboats and the Coast Guard** on Long Island Sound. ([channels](frequencies.md#marine-new-haven-harbor-and-long-island-sound))
 - 🛰️ **Talk through satellites as they fly overhead**, including a ham radio relay on the International Space Station. This needs a special handheld antenna. ([how](docs/08-satellites.md))
+
+## What else can I do with other radios?
+
+A handheld radio is just the tip of the iceberg. With it you can talk to people within a few miles, or a few hundred miles through a satellite. Amateur radio goes much further. You can:
+
+- 🌕 **Bounce signals off the Moon** and hear your own echo come back about 2.5 seconds later (1.3 seconds each way). This is called "moonbounce" or EME.
+- 🔧 **Build a radio from scratch**, often from a kit costing less than a textbook, and use it to talk to people thousands of miles away.
+- 🌍 **Talk around the world** by bouncing signals off the ionosphere, the electrically charged layer of the upper atmosphere, often with nothing more than a wire antenna hung from a tree.
+- 💻 **Experiment with new communication technologies.** Digital modes like FT8 pull signals out from below the noise, and computer-controlled radios ("software-defined radios") let you see a whole band of radio activity at once.
+- 📡 **Send signals around the planet on a few thousandths of a watt** and watch on a live map as stations on other continents report hearing you.
+- ☄️ **Bounce signals off the trails of meteors** burning up in the atmosphere.
+- 🎈 **Launch a high-altitude balloon** carrying a tiny transmitter, and track it as it drifts around the world.
+- 🛰️ **Download pictures directly from weather satellites** as they pass overhead.
+- 🧑‍🚀 **Talk to an astronaut on the International Space Station.** Ham radio volunteers help schools and universities arrange scheduled contacts with the crew.
+- 🏞️ **Get on the air from parks and mountaintops** in programs like Parks on the Air and Summits on the Air, and contact others doing the same.
+- 🏆 **Compete in contests** to contact as many stations, states or countries as you can in a weekend, and **collect postcards ("QSL cards")** confirming contacts from around the world.
+- 🧭 **Go "fox hunting":** use a direction-finding antenna to track down a hidden transmitter.
+- 🧑‍💻 **Write software and firmware for radios**, like the open-source software this guide installs on the UV-K5.
+
+Some of these use frequencies that need the next license level up, **General**, which is another 35-question exam. Come to a [W1YU meeting](https://w1yu.sites.yale.edu/) to find out more.
 
 ---
 
