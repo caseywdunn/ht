@@ -62,7 +62,7 @@ Getting the channels in is two moves: **open the CSV in its own tab**, then **co
    4. Leave the checkbox below it, **Unlock 350-400 MHz RX (350 En)**, as it is. It only lets the radio *receive* 350–400 MHz and has no effect on transmitting. None of our channels use that range.
 
    The firmware default (`DEFAULT+ (137-174, 400-470)`) lets the radio transmit on non-ham frequencies, including the weather, marine and railroad channels in our list. **Every radio must have this set.**
-7. **Show channel names on the screen.** Still in **Settings**, open **Basic Settings** and set **Channel Display Mode (ChDisp)** to **Name + Frequency (NAME + FREQ)**. Otherwise the radio may show only a frequency or channel number in memory mode. While you're there, set **Auto Lock Keypad After Delay (KeyLck)** to **OFF**, or to a longer delay like `02m:00s`, so the keys don't lock seconds after you stop pressing them.
+7. **Show channel names on the screen.** Still in **Settings**, open **Basic Settings** and set **Channel Display Mode (ChDisp)** to **Name + Frequency (NAME + FREQ)**. Otherwise the radio may show only a frequency or channel number in memory mode. If you'd like the screen to show only one line instead of two (A and B), also set **RX Mode (RX MODE)** to **MAIN ONLY**. While you're there, set **Auto Lock Keypad After Delay (KeyLck)** to **OFF**, or to a longer delay like `02m:00s`, so the keys don't lock seconds after you stop pressing them.
 8. **Radio → Upload to radio**, with the **radio tab** selected. Wait for it to finish, then turn the radio off and on.
 9. **File → Save As** a new image (e.g. `my-radio-w1yu-2026-10-24.img`), so you have a copy of the finished setup.
 

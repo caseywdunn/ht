@@ -31,7 +31,17 @@ The radio works in one of two modes:
 | **Memory mode** | A frequency with no channel name (you're in frequency mode) | **Long-press 3** once. A channel name appears. |
 | **Frequency mode** | A channel name (you're in memory mode) | **Long-press 3** once. The channel name disappears and you can type a frequency. |
 
-> The screen has two lines, **A** (top) and **B** (bottom), and each can be in its own mode. Long-press 3 changes only the **selected** line (the one with the arrow or highlight). **Long-press 2** to select the other line.
+## One line or two (A and B)
+
+The radio can show **two lines**, **A** (top) and **B** (bottom). Each has its own channel or frequency, like two radios in one. Each line can also be in its own mode, and long-press 3 changes only the **selected** line (the one with the arrow or highlight).
+
+| To… | Do this |
+|---|---|
+| **Switch between line A and line B** | **Long-press 2** (labeled A/B). The radio talks and listens on the selected line. |
+| **Show just one line** (simplest) | Press **M**, find **RxMode**, choose **MAIN ONLY**, press **M**, then **EXIT**. **MO** appears at the top of the screen. |
+| **Show and listen to both lines** | Set **RxMode** to **DUAL RX RESPOND** (shown as **DWR**). The radio listens to both and answers on whichever one was last active. |
+
+With **MAIN ONLY**, the radio listens only to the selected line, and long-press 2 still switches between A and B.
 
 ## Channels (memory mode)
 
@@ -58,7 +68,6 @@ Useful channels (full list in [`frequencies.md`](../frequencies.md)):
 | **Get into frequency mode** | **Long-press 3** until the channel name disappears and only a frequency shows |
 | **Type a frequency** | Type 6 digits. `1 4 6 5 2 0` gives **146.520**. |
 | **Nudge the frequency up or down** | Press **▲** or **▼** |
-| **Switch between the top (A) and bottom (B) line** | **Long-press 2**. The radio talks on whichever line is selected. |
 
 ## Squelch (muting the static)
 
