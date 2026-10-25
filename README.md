@@ -1,6 +1,6 @@
 # W1YU Handheld Radio (HT) Guide
 
-A guide from the **Yale University Amateur Radio Club (W1YU)** for getting on the air with a handheld radio ("HT"), starting from zero: no license, no radio, no experience.
+A guide from the **Yale University Amateur Radio Club (W1YU)** for getting on the air with a handheld two-way radio (hams call it an "HT", for "handie-talkie"), starting from zero: no license, no radio, no experience.
 
 ---
 
@@ -8,13 +8,20 @@ A guide from the **Yale University Amateur Radio Club (W1YU)** for getting on th
 
 ### 1. Get your license
 
-You need an FCC amateur radio license to transmit. Anyone can listen. The entry-level license is **Technician**, and it covers everything in this guide.
+To **transmit** (talk or send) on amateur ("ham") radio you need a license from the FCC, the US agency that regulates radio. Anyone can **listen** without one. The beginner license is called **Technician**, and it covers everything in this guide.
 
-1. **Study.** Every exam question comes from a public question pool, so you can practice on the real questions. **[HamStudy.org](https://hamstudy.org)** is free and excellent. Most people are ready after one to three weeks of casual study. No Morse code is required.
-2. **Get an FCC Registration Number (FRN)**, free, in the FCC's [CORES system](https://apps.fcc.gov/cores/). You'll need it at the exam.
-3. **Sign up for an exam session.** Sessions are run by volunteer examiners, in person or online. Find one with the [ARRL exam search](https://www.arrl.org/find-an-amateur-radio-license-exam-session) or the [HamStudy session finder](https://hamstudy.org/sessions). Many are free; some charge about $15.
+1. **Study.** Every possible exam question is published ahead of time, so you can practice on the real questions. **[HamStudy.org](https://hamstudy.org)** is free and excellent. Most people are ready after one to three weeks of casual study. You do *not* need to know Morse code.
+2. **Get an FCC Registration Number (FRN).** It's a free ID number from the FCC that you'll need at the exam. Register in the FCC's [CORES system](https://apps.fcc.gov/cores/).
+3. **Sign up for an exam session.** Exams are given by teams of licensed volunteers, in person or over video. Find one with the [ARRL exam search](https://www.arrl.org/find-an-amateur-radio-license-exam-session) or the [HamStudy session finder](https://hamstudy.org/sessions).
 4. **Take the test.** It's **35 multiple-choice questions**, and you need **26 correct** to pass.
-5. **Pay the FCC's $35 application fee** online when they email you after the exam. Your call sign appears in the FCC database about a week later, and then you can transmit. The license lasts 10 years.
+5. **Pay the FCC's application fee** online when the FCC emails you after the exam. About a week later you'll receive your **call sign**, your unique on-air name (like KC1ABC). Then you can transmit. The license lasts 10 years.
+
+**Total cost: $35 to $50.**
+
+| Fee | Amount | Paid to |
+|---|---|---|
+| FCC application fee | **$35** | The FCC, online, after you pass |
+| Exam session fee | **$0–15** | The volunteer team, at the exam. Sessions run through the ARRL charge $15. Sessions run through other groups, such as Laurel VEC, are often free. The session listing shows the fee. |
 
 More about the rules: [Rules and safety](docs/02-rules-and-safety.md).
 
@@ -22,34 +29,40 @@ More about the rules: [Rules and safety](docs/02-rules-and-safety.md).
 
 We use the **Quansheng UV-K5 (V3)**, about **$30**: [Amazon ASIN B0D2QYWMNH](https://www.amazon.com/dp/B0D2QYWMNH). Make sure the listing says **V3**.
 
-**That's all you need to get on the air.** Out of the box it works for voice on the two most popular local bands (2 meters and 70 centimeters).
+**That's all you need to get on the air.** Out of the box it works for voice on the two most popular local frequency ranges (hams call them the "2 meter" and "70 centimeter" bands).
 
 If you'd like, you can also:
 
-- **Install new software (firmware)** that adds features like Morse code (CW). It's free and takes about 15 minutes ([how](docs/04-firmware.md)).
-- **Get a USB programming cable** (about $12) so you can install the firmware and load our channel list from a computer.
-- **Get a better antenna** for more range, and an **external Morse code paddle** that's easier to use than the radio's buttons.
+- **Install new software ("firmware") on the radio** that adds features, most importantly the ability to send Morse code (hams call it **CW**). It's free and takes about 15 minutes ([how](docs/04-firmware.md)).
+- **Get a USB programming cable** (about $12). It connects the radio to a computer, so you can install the new software and load our list of local frequencies all at once.
+- **Get a better antenna** for more range.
+- **Get a Morse code paddle**, a small two-lever key for sending Morse code. It's much easier to use than the radio's own buttons.
 
 Part numbers and prices: [Shopping list](docs/03-shopping-list.md).
 
 ### 3. Get on the air!
 
-- **Load our channel list.** We've put together [preprogrammed frequencies](frequencies.md) for the New Haven area: the W1YU club channels, local repeaters, and more. Load them all at once from your computer ([how](docs/05-programming.md#53-load-the-w1yu-channel-list)), or type in a few by hand.
-- **Talk.** Voice works great: chat with other students across campus, reach the region through local repeaters, and join the **W1YU net on Tuesdays at 8 pm**. See [Voice](docs/06-voice.md).
-- **Try other modes.** With the new firmware the radio sends real Morse code. See [Morse code (CW)](docs/07-cw.md).
-- **Keep the [quick reference](docs/quick-reference.md) handy.** It's a one-page cheat sheet of buttons: changing channels, typing in a frequency, and fixing common problems.
+- **Load our channel list.** We've put together a [list of preprogrammed frequencies](frequencies.md) for the New Haven area, including W1YU's own club frequencies. Load them all at once from your computer ([how](docs/05-programming.md#53-load-the-w1yu-channel-list)), or type in a few by hand.
+- **Talk.** Voice works great:
+  - **Radio-to-radio** with other students across campus.
+  - **Across the region through repeaters.** These are powerful relay stations on hilltops and towers that rebroadcast your signal much farther than a handheld can reach on its own.
+  - **Join the W1YU net**, a weekly on-air meeting, on Tuesdays at 8 pm.
+
+  See [Voice](docs/06-voice.md).
+- **Try Morse code (CW).** With the new firmware the radio sends real Morse code. See [Morse code (CW)](docs/07-cw.md).
+- **Keep the [quick reference](docs/quick-reference.md) handy.** It's a one-page cheat sheet of the radio's buttons: changing channels, typing in a frequency, and fixing common problems.
 
 ---
 
 ## What else can I do?
 
-The same radio can listen far beyond the ham bands. These are all in the channel list:
+The radio can also listen to lots of radio traffic outside ham radio. These are all in the channel list:
 
 - 🌦️ **Get broadcast weather reports** from NOAA Weather Radio, around the clock. ([channels](frequencies.md#4-weather))
-- ✈️ **Listen to pilots talking to the tower** at Tweed-New Haven Airport. ([channels](frequencies.md#aircraft-tweed-new-haven-airport-hvn))
+- ✈️ **Listen to pilots talking to the control tower** at Tweed-New Haven Airport. ([channels](frequencies.md#aircraft-tweed-new-haven-airport-hvn))
 - 🚆 **Listen in on railroad communications:** Metro-North, Amtrak and freight trains around Union Station. ([channels](frequencies.md#trains-union-station-and-the-northeast-corridor))
-- ⚓ **Hear ships, tugs and the Coast Guard** on Long Island Sound. ([channels](frequencies.md#marine-new-haven-harbor-and-long-island-sound))
-- 🛰️ **Talk through satellites as they fly over**, including the International Space Station's ham radio repeater, with the right antenna. ([how](docs/08-satellites.md))
+- ⚓ **Hear ships, tugboats and the Coast Guard** on Long Island Sound. ([channels](frequencies.md#marine-new-haven-harbor-and-long-island-sound))
+- 🛰️ **Talk through satellites as they fly overhead**, including a ham radio relay on the International Space Station. This needs a special handheld antenna. ([how](docs/08-satellites.md))
 
 ---
 
@@ -59,17 +72,17 @@ The detailed pages. Work through them in order the first time you set up a radio
 
 | # | Page | What's in it |
 |---|---|---|
-| — | [Quick reference](docs/quick-reference.md) | One-page cheat sheet: buttons, channels, frequency mode, common fixes |
-| 1 | [The radio](docs/01-the-radio.md) | What it is, buttons, checking you have a V3 |
-| 2 | [Rules and safety](docs/02-rules-and-safety.md) | Licensing, the rules that matter day one, safety |
+| — | [Quick reference](docs/quick-reference.md) | One-page cheat sheet of the radio's buttons: changing channels, typing in frequencies, common fixes |
+| 1 | [The radio](docs/01-the-radio.md) | What the radio is, its buttons, and checking you have the right version (V3) |
+| 2 | [Rules and safety](docs/02-rules-and-safety.md) | Licensing, the rules that matter on day one, and safety |
 | 3 | [Shopping list](docs/03-shopping-list.md) | Parts with part numbers and prices |
-| 4 | [Firmware](docs/04-firmware.md) | Installing the NR7Y CW firmware |
-| 5 | [Programming](docs/05-programming.md) | CHIRP, loading the W1YU channels, putting your call sign on the radio |
-| 6 | [Voice (FM)](docs/06-voice.md) | Simplex, repeaters, how to talk, nets, phonetics |
-| 7 | [Morse code (CW)](docs/07-cw.md) | Keying options, CW settings, practice mode, paddles, on-air contacts |
-| 8 | [Satellites](docs/08-satellites.md) | Hearing and working the ISS and FM satellites |
+| 4 | [Firmware](docs/04-firmware.md) | Installing the new software (firmware) that adds Morse code |
+| 5 | [Programming](docs/05-programming.md) | Loading our channel list from a computer (with free software called CHIRP), and putting your call sign on the radio |
+| 6 | [Voice (FM)](docs/06-voice.md) | Talking radio-to-radio and through repeaters, what to say, joining a net, and the phonetic alphabet (Alpha, Bravo, Charlie…) |
+| 7 | [Morse code (CW)](docs/07-cw.md) | Ways to send Morse code, settings, a practice mode that doesn't transmit, using a paddle, and your first Morse code conversation |
+| 8 | [Satellites](docs/08-satellites.md) | Listening to and talking through the Space Station and other satellites |
 | 9 | [Troubleshooting](docs/09-troubleshooting.md) | Common problems and fixes |
-| 10 | [Glossary](docs/10-glossary.md) | Jargon explained |
+| 10 | [Glossary](docs/10-glossary.md) | Radio terms explained |
 
 **Frequencies:** [`frequencies.md`](frequencies.md) lists New Haven repeaters, W1YU simplex and CW channels, satellites, weather, and listen-only aircraft, marine and railroad channels. The same channels are in [`w1yu-chirp.csv`](w1yu-chirp.csv), ready to load ([how](docs/05-programming.md#53-load-the-w1yu-channel-list)).
 
