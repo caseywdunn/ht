@@ -258,6 +258,7 @@ We use **[CHIRP](https://chirpmyradio.com)**, the free, standard radio programmi
    1. Click the **Settings** sub-tab.
    2. In the list on the left, click **Unlock Settings**.
    3. Set **TX Frequency Lock (F Lock)** to **`FCC HAM (144-148, 420-450)`**.
+   4. Leave the checkbox below it, **Unlock 350-400 MHz RX (350 En)**, as it is. It only lets the radio *receive* 350–400 MHz and has no effect on transmitting. None of our channels use that range.
 
    The firmware default (`DEFAULT+ (137-174, 400-470)`) lets the radio transmit on non-ham frequencies, including the weather, marine and railroad channels in our list. **Every radio must have this set.**
 5. **Radio → Upload to radio.** Wait for it to finish, then turn the radio off and on.
