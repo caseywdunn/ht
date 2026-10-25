@@ -98,7 +98,7 @@ What it scans depends on the mode you're in:
   | `0` `2` | List 2: listen-only channels |
   | `0` `0` | **All** lists together |
 
-  The radio switches right away and keeps scanning. It also remembers your choice for next time. You can set which list it starts with in the menu (**M**) under **SList**.
+  The radio switches right away and keeps scanning. You can also choose which list it starts with in the menu (**M**) under **SList**.
 - **In frequency mode** it steps **up through frequencies** from where you are, a little at a time. This is good for exploring a band and finding activity that isn't in your channel list.
 
 When a transmission ends, the radio waits a few seconds, then keeps scanning.
