@@ -15,14 +15,28 @@
 
 "Long-press" means hold the key about one second.
 
-## Channels (memory mode)
+## Two ways to tune: memory mode and frequency mode
 
-In memory mode the screen shows a **channel name** like `W1YU V1`.
+The radio works in one of two modes:
+
+- **Memory mode:** you pick from **saved channels**, like presets on a car radio. The screen shows a **channel name** like `W1YU V1`. Use this most of the time.
+- **Frequency mode** (hams call it **"VFO" mode**): you **type in any frequency** you like. The screen shows just a **frequency** like `146.520`, with no channel name.
+
+**To switch between them, long-press the 3 key** (it's labeled **VFO MEM**). Each long-press flips to the other mode:
+
+| You want… | And the screen shows… | Do this |
+|---|---|---|
+| **Memory mode** | A frequency with no channel name (you're in frequency mode) | **Long-press 3** once. A channel name appears. |
+| **Frequency mode** | A channel name (you're in memory mode) | **Long-press 3** once. The channel name disappears and you can type a frequency. |
+
+> The screen has two lines, **A** (top) and **B** (bottom), and each can be in its own mode. Long-press 3 changes only the **selected** line (the one with the arrow or highlight). **Long-press 2** to select the other line.
+
+## Channels (memory mode)
 
 | To… | Do this |
 |---|---|
+| **Get into memory mode** | **Long-press 3** until a channel name shows |
 | **Go to the next or previous channel** | Press **▲** or **▼** |
-| **Get back to memory mode** from frequency mode | **Long-press 3** |
 
 Useful channels (full list in [`frequencies.md`](../frequencies.md)):
 
@@ -37,11 +51,9 @@ Useful channels (full list in [`frequencies.md`](../frequencies.md)):
 
 ## Frequencies (frequency / "VFO" mode)
 
-In frequency mode the screen shows a **frequency** like `146.520`.
-
 | To… | Do this |
 |---|---|
-| **Switch between channel and frequency mode** | **Long-press 3** (the key is labeled VFO MEM) |
+| **Get into frequency mode** | **Long-press 3** until the channel name disappears and only a frequency shows |
 | **Type a frequency** | Type 6 digits. `1 4 6 5 2 0` gives **146.520**. |
 | **Nudge the frequency up or down** | Press **▲** or **▼** |
 | **Switch between the top (A) and bottom (B) line** | **Long-press 2**. The radio talks on whichever line is selected. |
