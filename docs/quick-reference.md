@@ -10,7 +10,7 @@
 |---|---|
 | **Turn on / set volume** | Turn the knob on top |
 | **Unlock the keys** (lock icon, keys don't respond) | **Long-press F** (bottom right) |
-| **Stop the keys locking by themselves** | Press **M**, find **KeyLck**, set it to **OFF** (or a longer time), press **M**, then **EXIT** |
+| **Stop the keys locking by themselves** | Menu → **Keys** → **KeyLck** → **OFF** (or a longer time). See [Using the menu](#using-the-menu). |
 | **Talk** | Hold **PTT** (big button on the left side), wait half a second, speak, then **let go to listen** |
 | **Say who you are** | Say your call sign at the end of a contact and every 10 minutes |
 
@@ -21,7 +21,7 @@
 The radio works in one of two modes:
 
 - **Memory mode:** you pick from **saved channels**, like presets on a car radio. The screen shows a **channel name** like `W1YU V1`. Use this most of the time.
-  - **No name showing, just a frequency or a channel number?** Turn names on: press **M**, find **ChDisp**, choose **NAME+FREQ**, press **M** to save, then **EXIT**. (In CHIRP it's **Settings → Basic Settings → Channel Display Mode (ChDisp)**.)
+  - **No name showing, just a frequency or a channel number?** Turn names on: Menu → **Display** → **ChDisp** → **NAME+FREQ** ([how](#using-the-menu)). (In CHIRP it's **Settings → Basic Settings → Channel Display Mode (ChDisp)**.)
 - **Frequency mode** (hams call it **"VFO" mode**): you **type in any frequency** you like. The screen shows just a **frequency** like `146.520`, with no channel name.
 
 **To switch between them, long-press the 3 key** (it's labeled **VFO MEM**). Each long-press flips to the other mode:
@@ -38,7 +38,7 @@ The radio can show **two lines**, **A** (top) and **B** (bottom). Each has its o
 | To… | Do this |
 |---|---|
 | **Switch between line A and line B** | **Long-press 2** (labeled A/B). The radio talks and listens on the selected line. |
-| **Show just one line** (simplest) | Press **M**, find **RxMode**, choose **MAIN ONLY**, press **M**, then **EXIT**. **MO** appears at the top of the screen. |
+| **Show just one line** (simplest) | Menu → **Radio** → **RxMode** → **MAIN ONLY** ([how](#using-the-menu)). **MO** appears at the top of the screen. |
 | **Show and listen to both lines** | Set **RxMode** to **DUAL RX RESPOND** (shown as **DWR**). The radio listens to both and answers on whichever one was last active. |
 
 With **MAIN ONLY**, the radio listens only to the selected line, and long-press 2 still switches between A and B.
@@ -77,6 +77,7 @@ Useful channels (full list in [`frequencies.md`](../frequencies.md)):
 |---|---|
 | **Make it quieter** (cut out more static) | Press **F**, then **▲** |
 | **Hear weaker stations** | Press **F**, then **▼** |
+| **Set an exact level** | Menu → **Radio** → **Sql** |
 | **Briefly hear everything**, static included | **Long-press M** (monitor). Long-press again to go back. |
 
 - **Too low** and you'll hear static all the time, and scanning will stop on noise.
@@ -109,12 +110,34 @@ What it scans depends on the mode you're in:
   | `0` `2` | List 2: listen-only channels |
   | `0` `0` | **All** lists together |
 
-  The radio switches right away and keeps scanning. You can also choose which list it starts with in the menu (**M**) under **SList**.
+  The radio switches right away and keeps scanning. You can also choose which list it starts with: Menu → **Scan** → **SList**.
 - **In frequency mode** it steps **up through frequencies** from where you are, a little at a time. This is good for exploring a band and finding activity that isn't in your channel list.
 
 When a transmission ends, the radio waits a few seconds, then keeps scanning.
 
 > **Scan finds nothing at all in memory mode?** The channels probably have no scan list assigned. Fix it in CHIRP ([step 5 here](05-programming.md#53-load-the-w1yu-channel-list)).
+
+## Using the menu
+
+Settings are grouped into **categories**.
+
+1. Press **M**. A list of categories appears (**CW**, **Channels**, **Scan**, **Keys**, **Display**, **Radio**…).
+2. Use **▲ / ▼** to pick a category and press **M** to open it.
+3. Use **▲ / ▼** to pick a setting and press **M** to change it.
+4. Use **▲ / ▼** to choose a value and press **M** to save it.
+5. Press **EXIT** to back out, one level per press.
+
+| Setting | Category | What it does |
+|---|---|---|
+| **ChDisp** | Display | What memory mode shows (choose **NAME+FREQ**) |
+| **POnMsg** | Display | The start-up message |
+| **KeyLck** | Keys | Keypad auto-lock delay (**OFF** to disable) |
+| **RxMode** | Radio | One line (**MAIN ONLY**) or listen to both |
+| **Sql** | Radio | Squelch level |
+| **SList** | Scan | Which scan list to use |
+| **CWwpm**, **CWkin**, … | CW | Morse code settings ([details](07-cw.md#74-set-up-cw-mode)) |
+
+**Can't find something?** The **All** category, at the bottom of the category list, has every setting in one long list.
 
 ## If something seems wrong
 
