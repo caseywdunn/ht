@@ -50,6 +50,41 @@ Accessories like a better antenna, or a Morse code paddle (a small two-lever key
 
 ---
 
+## What can I talk about on the air?
+
+Amateur radio frequencies are shared by everyone, and the **FCC limits what they can be used for**. When you get your license, you take on the responsibility to use them properly. The rules are in [47 CFR Part 97](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97), mainly [§97.113, "Prohibited transmissions"](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B/section-97.113) and [§97.101, "General standards"](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B/section-97.101).
+
+The main rules:
+
+- **No money, no business.** You can't use ham radio for anything you're paid for or profit from, including anything to do with your job.
+- **Don't interfere** with other operators. Don't talk over people or deliberately disrupt anyone's signal. Listen before you transmit.
+- **No broadcasting.** Ham radio is for two-way conversations. You can't send out programs or announcements for an audience to tune into.
+- **No music.**
+- **No privacy, and no secrets.** Assume anyone can hear what you say, and that they may record it. Don't encrypt, use code words, or otherwise hide what you mean. Common ham abbreviations like "73" and "QSO" are fine, because everyone knows what they mean.
+- **Nothing obscene or indecent, nothing false or deceptive,** and nothing that helps someone commit a crime.
+- **Say your call sign** at the end of each conversation and at least every 10 minutes.
+
+**OK** ✅
+
+- Hanging out and chatting with friends
+- Making plans to go out
+- Studying together for a class
+- Coordinating an event for a campus club, as long as everyone on the radio is licensed (or a licensed operator is right there with them)
+- Talking about radio, your projects, your day: almost anything, really
+
+**Not OK** 🚫
+
+- Playing music, **even in the background** while you talk
+- Coordinating with coworkers at a job, including a campus job
+- Sending coded or encrypted messages
+- Announcements or "shows" meant for listeners rather than a conversation
+- Ads, or selling things for profit (mentioning occasionally that you have radio gear for sale or trade is allowed)
+- Making ham radio a group's regular, everyday radio system in place of walkie-talkies. Routine use that another radio service could handle isn't allowed ([§97.113(a)(5)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B/section-97.113)). License-free walkie-talkies (FRS) are meant for that.
+
+More detail: [Rules and safety](docs/02-rules-and-safety.md).
+
+---
+
 ## What else can I do with this radio?
 
 The radio can also listen to lots of radio traffic outside ham radio. These are all in the channel list:
