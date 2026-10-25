@@ -34,7 +34,7 @@ These are **proposals** for the club to adopt. They were picked to fit the [ARRL
 
 ### Morse code (CW)
 
-> Remember: CW channels only work with **another CW/SSB-capable radio** ([README §7.2](README.md#72-important-cw-is-not-fm)). Leave CW mode before using any FM frequency.
+> Remember: CW channels only work with **another CW/SSB-capable radio** ([CW §7.2](docs/07-cw.md#72-important-cw-is-not-fm)). Leave CW mode before using any FM frequency.
 
 | Ch | Name | Frequency | Mode | Use |
 |---|---|---|---|---|
@@ -109,7 +109,7 @@ Use **Tone** mode (send the tone; don't require it on receive) so you hear every
 
 ## 4. Weather
 
-**Receive only.** Make sure **F Lock** is set to **FCC HAM** ([README §5.3](README.md#53-load-the-w1yu-channel-list)) so the radio can't transmit on these.
+**Receive only.** Make sure **F Lock** is set to **FCC HAM** ([Programming §5.3](docs/05-programming.md#53-load-the-w1yu-channel-list)) so the radio can't transmit on these.
 
 | Ch | Name | Frequency | Station | Notes |
 |---|---|---|---|---|
@@ -172,7 +172,7 @@ Decode ISS SSTV pictures by holding a phone running **Robot36** (Android) or **S
 
 The radio receives far outside the ham bands, so it doubles as a scanner. These are channels 70–96 in the CSV.
 
-> ⚠️ **Receive only.** Never transmit on these. It's illegal and could interfere with real aircraft, ships and trains. With **F Lock set to FCC HAM** ([README §5.3](README.md#53-load-the-w1yu-channel-list)) the radio refuses to transmit here. **Listening is legal, but don't record, repost or share what you hear** from these services (federal law, 47 U.S.C. § 605).
+> ⚠️ **Receive only.** Never transmit on these. It's illegal and could interfere with real aircraft, ships and trains. With **F Lock set to FCC HAM** ([Programming §5.3](docs/05-programming.md#53-load-the-w1yu-channel-list)) the radio refuses to transmit here. **Listening is legal, but don't record, repost or share what you hear** from these services (federal law, 47 U.S.C. § 605).
 
 **Tip:** to scan a group, use the radio's scan list feature (see the F4HWN docs) or just step through with the arrows. Activity comes in bursts, so be patient.
 
