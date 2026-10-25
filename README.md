@@ -249,20 +249,24 @@ We use **[CHIRP](https://chirpmyradio.com)**, the free, standard radio programmi
 
 **Steps**
 
-1. **Click the radio tab** to select it. If you don't have one, go back and do **Radio → Download from radio** ([5.2](#52-every-time-you-program)) first. **Importing with no radio tab open just opens the CSV in its own tab**, which can't be uploaded.
-2. **File → Import**, and choose [`w1yu-chirp.csv`](w1yu-chirp.csv) from this repo.
-3. A dialog lists the channels. Leave them all checked and click **OK**. They appear in the radio tab's **Memories** sub-tab, in the channel numbers given in the file.
+Getting the channels in is two moves: **open the CSV in its own tab**, then **copy and paste** its rows into the radio tab. Importing the CSV alone does **not** put anything on the radio.
+
+1. **Make sure you have a radio tab.** If you don't, do **Radio → Download from radio** first ([5.2](#52-every-time-you-program)).
+2. **Open the CSV.** Use **File → Import** (or **File → Open**) and choose [`w1yu-chirp.csv`](w1yu-chirp.csv) from this repo. It opens in a **new tab** of its own. That's expected.
+3. **Copy everything from the CSV tab.** Click any channel row in the CSV tab, press **⌘A** (Mac) or **Ctrl+A** (Windows) to select all, then **⌘C** / **Ctrl+C** to copy.
+4. **Paste into the radio tab's Memories.** Click the **radio tab**, then its **Memories** sub-tab. Click the row for **channel 1** and press **⌘V** / **Ctrl+V**. Each channel lands at its own number from the file.
    - **The empty rows between groups are on purpose.** Each group starts at a round number (1 W1YU, 10 repeaters, 30 CW, 40 satellites, 60 weather, 70 aircraft, 80 marine, 90 trains), leaving room to add channels later.
-   - **If the CSV opened in its own tab instead** (no Settings sub-tab), it was opened, not imported. In that CSV tab, click any channel, press **Ctrl+A / ⌘A** to select all, then **Ctrl+C / ⌘C** to copy. Click the radio tab, click **channel 1**, and press **Ctrl+V / ⌘V** to paste. Then close the CSV tab.
-4. **⚠️ Lock transmit to the ham bands.** Still in the radio tab:
+   - Look through the list. CHIRP highlights any channel it doesn't like.
+   - You can now close the CSV tab (don't save changes to it).
+5. **⚠️ Lock transmit to the ham bands.** Still in the radio tab:
    1. Click the **Settings** sub-tab.
    2. In the list on the left, click **Unlock Settings**.
    3. Set **TX Frequency Lock (F Lock)** to **`FCC HAM (144-148, 420-450)`**.
    4. Leave the checkbox below it, **Unlock 350-400 MHz RX (350 En)**, as it is. It only lets the radio *receive* 350–400 MHz and has no effect on transmitting. None of our channels use that range.
 
    The firmware default (`DEFAULT+ (137-174, 400-470)`) lets the radio transmit on non-ham frequencies, including the weather, marine and railroad channels in our list. **Every radio must have this set.**
-5. **Radio → Upload to radio.** Wait for it to finish, then turn the radio off and on.
-6. **File → Save As** a new image (e.g. `my-radio-w1yu-2026-10-24.img`), so you have a copy of the finished setup.
+6. **Radio → Upload to radio**, with the **radio tab** selected. Wait for it to finish, then turn the radio off and on.
+7. **File → Save As** a new image (e.g. `my-radio-w1yu-2026-10-24.img`), so you have a copy of the finished setup.
 
 > The CSV was checked against the NR7Y v1.4a CHIRP module: all 57 channels import cleanly. Channel names are limited to 10 characters. CW channels import in **CW** mode and aircraft channels in **AM**, so the radio switches mode automatically when you select them.
 
