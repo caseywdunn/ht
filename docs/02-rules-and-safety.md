@@ -18,7 +18,6 @@
 
 ## Safety
 
-- **RF exposure:** hold the radio so the antenna is a few inches from your face, and never transmit with the antenna touching your body. At 5 W on a handheld, normal use is well within FCC exposure limits.
 - **Battery:** it's lithium-ion. Charge it with a standard USB-C charger, don't leave it in a hot car, and don't use a swollen battery.
 - **Never transmit without an antenna attached.** It can damage the radio.
 
