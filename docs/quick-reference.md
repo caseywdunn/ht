@@ -10,6 +10,7 @@
 |---|---|
 | **Turn on / set volume** | Turn the knob on top |
 | **Unlock the keys** (lock icon, keys don't respond) | **Long-press F** (bottom right) |
+| **Stop the keys locking by themselves** | Press **M**, find **KeyLck**, set it to **OFF** (or a longer time), press **M**, then **EXIT** |
 | **Talk** | Hold **PTT** (big button on the left side), wait half a second, speak, then **let go to listen** |
 | **Say who you are** | Say your call sign at the end of a contact and every 10 minutes |
 
