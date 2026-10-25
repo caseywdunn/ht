@@ -8,7 +8,7 @@ A guide from the **[Yale University Amateur Radio Club (W1YU)](https://w1yu.site
 
 ### 1. Get your license
 
-To **transmit** (talk or send) on amateur ("ham") radio you need a license from the FCC, the US agency that regulates radio. Anyone can **listen** without one. The beginner license is called **Technician**, and it covers everything in this guide.
+To **transmit** (talk or send) on amateur ("ham") radio you need a license from the FCC, the US agency that regulates radio. Anyone can **listen** without one. The beginner license is called **Technician**.
 
 1. **Study.** Every possible exam question is published ahead of time, so you can practice on the real questions. **[HamStudy.org](https://hamstudy.org)** is free and excellent. Most people are ready after one to three weeks of casual study. You do *not* need to know Morse code.
 2. **Get an FCC Registration Number (FRN).** It's a free ID number from the FCC that you'll need at the exam. Register in the FCC's [CORES system](https://apps.fcc.gov/cores/).
