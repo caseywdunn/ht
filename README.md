@@ -80,7 +80,6 @@ The main rules:
 - Transmitting without saying your call sign
 - Announcements or "shows" meant for listeners rather than a conversation
 - Ads, or selling things for profit (mentioning occasionally that you have radio gear for sale or trade is allowed)
-- Making ham radio a group's regular, everyday radio system in place of walkie-talkies. Routine use that another radio service could handle isn't allowed ([§97.113(a)(5)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B/section-97.113)). License-free walkie-talkies (FRS) are meant for that.
 
 More detail: [Rules and safety](docs/02-rules-and-safety.md).
 
