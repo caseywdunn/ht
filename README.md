@@ -1,86 +1,65 @@
 # W1YU Handheld Radio (HT) Guide
 
-A beginner's guide for the **Yale University Amateur Radio Club (W1YU)** covering VHF/UHF handheld transceivers ("HTs"). It assumes **no radio experience at all**. You'll set up a ~$30 radio, load new firmware, program local frequencies, make voice contacts, and send Morse code (CW) over the air.
-
-We use the **Quansheng UV-K5 (V3)** with the **NR7Y CW firmware**, following this video:
-
-> 📺 **[NO MOD NEEDED! $30 Morse Code Radio](https://www.youtube.com/watch?v=qwPvv8Vp9-Q)**, by Forrest KI7QCF
+A guide from the **Yale University Amateur Radio Club (W1YU)** for getting on the air with a handheld radio ("HT"), starting from zero: no license, no radio, no experience.
 
 ---
 
-## Quick start: using the radio
+## Getting started
 
-*For a radio that's already flashed and has the W1YU channels loaded. If yours isn't set up yet, start with [the full guide](#the-full-guide).*
+### 1. Get your license
 
-> 🔑 **Not licensed yet?** Listening is fine. **Don't press PTT** unless a licensed operator is with you ([why](docs/02-rules-and-safety.md)).
+You need an FCC amateur radio license to transmit. Anyone can listen. The entry-level license is **Technician**, and it covers everything in this guide.
 
-### The basics
+1. **Study.** Every exam question comes from a public question pool, so you can practice on the real questions. **[HamStudy.org](https://hamstudy.org)** is free and excellent. Most people are ready after one to three weeks of casual study. No Morse code is required.
+2. **Get an FCC Registration Number (FRN)**, free, in the FCC's [CORES system](https://apps.fcc.gov/cores/). You'll need it at the exam.
+3. **Sign up for an exam session.** Sessions are run by volunteer examiners, in person or online. Find one with the [ARRL exam search](https://www.arrl.org/find-an-amateur-radio-license-exam-session) or the [HamStudy session finder](https://hamstudy.org/sessions). Many are free; some charge about $15.
+4. **Take the test.** It's **35 multiple-choice questions**, and you need **26 correct** to pass.
+5. **Pay the FCC's $35 application fee** online when they email you after the exam. Your call sign appears in the FCC database about a week later, and then you can transmit. The license lasts 10 years.
 
-| To… | Do this |
-|---|---|
-| **Turn on / set volume** | Turn the knob on top |
-| **Unlock the keys** (lock icon, keys don't respond) | **Long-press F** (bottom right) |
-| **Talk** | Hold **PTT** (big button on the left side), wait half a second, speak, then **let go to listen** |
-| **Say who you are** | Say your call sign at the end of a contact and every 10 minutes |
+More about the rules: [Rules and safety](docs/02-rules-and-safety.md).
 
-"Long-press" means hold the key about one second.
+### 2. Get a radio
 
-### Channels (memory mode)
+We use the **Quansheng UV-K5 (V3)**, about **$30**: [Amazon ASIN B0D2QYWMNH](https://www.amazon.com/dp/B0D2QYWMNH). Make sure the listing says **V3**.
 
-In memory mode the screen shows a **channel name** like `W1YU V1`.
+**That's all you need to get on the air.** Out of the box it works for voice on the two most popular local bands (2 meters and 70 centimeters).
 
-| To… | Do this |
-|---|---|
-| **Go to the next or previous channel** | Press **▲** or **▼** |
-| **Get back to memory mode** from frequency mode | **Long-press 3** |
+If you'd like, you can also:
 
-Useful channels (full list in [`frequencies.md`](frequencies.md)):
+- **Install new software (firmware)** that adds features like Morse code (CW). It's free and takes about 15 minutes ([how](docs/04-firmware.md)).
+- **Get a USB programming cable** (about $12) so you can install the firmware and load our channel list from a computer.
+- **Get a better antenna** for more range, and an **external Morse code paddle** that's easier to use than the radio's buttons.
 
-| Ch | Name | What |
-|---|---|---|
-| 1 | W1YU V1 | Club voice channel. Start here. |
-| 4 | W1YU CW V1 | Club Morse code channel |
-| 7 | CALL 2M | National calling frequency (146.520) |
-| 10 | W1SPC 147 | Repeater: W1YU net, Tuesdays 8 pm |
-| 60 | WX WXJ42 | NOAA weather (listen only) |
-| 70 | HVN TWR | Tweed airport tower (listen only) |
+Part numbers and prices: [Shopping list](docs/03-shopping-list.md).
 
-### Frequencies (frequency / "VFO" mode)
+### 3. Get on the air!
 
-In frequency mode the screen shows a **frequency** like `146.520`.
+- **Load our channel list.** We've put together [preprogrammed frequencies](frequencies.md) for the New Haven area: the W1YU club channels, local repeaters, and more. Load them all at once from your computer ([how](docs/05-programming.md#53-load-the-w1yu-channel-list)), or type in a few by hand.
+- **Talk.** Voice works great: chat with other students across campus, reach the region through local repeaters, and join the **W1YU net on Tuesdays at 8 pm**. See [Voice](docs/06-voice.md).
+- **Try other modes.** With the new firmware the radio sends real Morse code. See [Morse code (CW)](docs/07-cw.md).
+- **Keep the [quick reference](docs/quick-reference.md) handy.** It's a one-page cheat sheet of buttons: changing channels, typing in a frequency, and fixing common problems.
 
-| To… | Do this |
-|---|---|
-| **Switch between channel and frequency mode** | **Long-press 3** (the key is labeled VFO MEM) |
-| **Type a frequency** | Type 6 digits. `1 4 6 5 2 0` gives **146.520**. |
-| **Nudge the frequency up or down** | Press **▲** or **▼** |
-| **Switch between the top (A) and bottom (B) line** | **Long-press 2**. The radio talks on whichever line is selected. |
+---
 
-### If something seems wrong
+## What else can I do?
 
-| Problem | Fix |
-|---|---|
-| Voices sound garbled, or you hear hiss and tones | You're in the wrong mode. **Long-press 0** until the screen shows **FM**. |
-| Hear nothing at all | Turn up the volume. **Long-press M** (monitor) to open the squelch and check that the radio is receiving. |
-| Repeater doesn't answer | Use the channel from the list. It has the right tone and offset already set. |
-| Anything else | See [Troubleshooting](docs/09-troubleshooting.md) |
+The same radio can listen far beyond the ham bands. These are all in the channel list:
 
-### Morse code in 30 seconds
-
-1. Select channel **4 (W1YU CW V1)**. The radio switches to CW automatically.
-2. **Long-press 7** until **BKIN** shows at the top. Keying will now transmit.
-3. Tap **PTT** as a Morse key. To practice without transmitting, use **F**, then **long-press 5** (practice mode, no license needed).
-
-More in [Morse code (CW)](docs/07-cw.md).
+- 🌦️ **Get broadcast weather reports** from NOAA Weather Radio, around the clock. ([channels](frequencies.md#4-weather))
+- ✈️ **Listen to pilots talking to the tower** at Tweed-New Haven Airport. ([channels](frequencies.md#aircraft-tweed-new-haven-airport-hvn))
+- 🚆 **Listen in on railroad communications:** Metro-North, Amtrak and freight trains around Union Station. ([channels](frequencies.md#trains-union-station-and-the-northeast-corridor))
+- ⚓ **Hear ships, tugs and the Coast Guard** on Long Island Sound. ([channels](frequencies.md#marine-new-haven-harbor-and-long-island-sound))
+- 🛰️ **Talk through satellites as they fly over**, including the International Space Station's ham radio repeater, with the right antenna. ([how](docs/08-satellites.md))
 
 ---
 
 ## The full guide
 
-Work through these in order the first time.
+The detailed pages. Work through them in order the first time you set up a radio.
 
 | # | Page | What's in it |
 |---|---|---|
+| — | [Quick reference](docs/quick-reference.md) | One-page cheat sheet: buttons, channels, frequency mode, common fixes |
 | 1 | [The radio](docs/01-the-radio.md) | What it is, buttons, checking you have a V3 |
 | 2 | [Rules and safety](docs/02-rules-and-safety.md) | Licensing, the rules that matter day one, safety |
 | 3 | [Shopping list](docs/03-shopping-list.md) | Parts with part numbers and prices |

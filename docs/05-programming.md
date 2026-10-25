@@ -65,7 +65,7 @@ Getting the channels in is two moves: **open the CSV in its own tab**, then **co
 - **Memory (channel) mode** shows channel names like `W1YU V1`. **Frequency (VFO) mode** shows a frequency you can type in directly. Toggle between them with the **VFO/MR** key (long-press **3**).
 - In VFO mode, just type digits: `1 4 6 5 2 0` → 146.520 MHz.
 - **Up/Down arrows** step through channels or frequencies.
-- See the [Quick start](../README.md#quick-start-using-the-radio) for a one-page cheat sheet.
+- See the [Quick reference](quick-reference.md) for a one-page cheat sheet.
 
 ## 5.5 What the channel settings mean
 
