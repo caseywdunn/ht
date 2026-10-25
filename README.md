@@ -62,7 +62,7 @@ The main rules:
 - **No music.**
 - **No privacy, and no secrets.** Assume anyone can hear what you say, and that they may record it. Don't encrypt, use code words, or otherwise hide what you mean. Common ham abbreviations like "73" and "QSO" are fine, because everyone knows what they mean.
 - **Nothing obscene or indecent, nothing false or deceptive,** and nothing that helps someone commit a crime.
-- **Say your call sign** at the end of each conversation and at least every 10 minutes.
+- **Identify yourself.** Say your call sign at the end of each conversation and at least every 10 minutes during it ([§97.119](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B/section-97.119)). Transmitting without identifying isn't allowed, even just to test your radio.
 
 **OK** ✅
 
@@ -77,6 +77,7 @@ The main rules:
 - Playing music, **even in the background** while you talk
 - Coordinating with coworkers at a job, including a campus job
 - Sending coded or encrypted messages
+- Transmitting without saying your call sign
 - Announcements or "shows" meant for listeners rather than a conversation
 - Ads, or selling things for profit (mentioning occasionally that you have radio gear for sale or trade is allowed)
 - Making ham radio a group's regular, everyday radio system in place of walkie-talkies. Routine use that another radio service could handle isn't allowed ([§97.113(a)(5)](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97/subpart-B/section-97.113)). License-free walkie-talkies (FRS) are meant for that.
